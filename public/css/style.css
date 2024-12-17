@@ -255,10 +255,12 @@ header .intro-text {
   padding-top: 350px;
   padding-bottom: 200px;
   text-align: center;
+  margin-bottom: 20px;
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  margin-top: 20px;
+  background: #fff;
 }
 #features i.fa {
   font-size: 38px;
@@ -272,6 +274,18 @@ header .intro-text {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
+
+.elm{
+  background-color: #0a1e53;
+
+}
+
+#features img{
+  height: 280px;
+  width: 280px;
+}
+
+
 /* About Section */
 #about {
   padding: 100px 0;

@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.home-container {
+  width: 100%;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  row-gap: 60px;
+  margin-top: 50px;
+}
+
+.profile-card {
+  position: relative;
+  width: 220px;
+  height: 260px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: -5px 8px 45px rgba(51, 51, 51, 0.126);
+  transition: all .4s;
+  margin: auto;
+}
+
+.profile-card .img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.profile-card .img img {
+  object-fit: fill;
+  width: 100%;
+  border-radius: 10px;
+  transition: all .4s;
+  z-index: 99;
+  transform: translateY(-70px);
+}
+
+.caption {
+  text-align: center;
+  transform: translateY(-105px);
+  opacity: 1;
+  transition: all .5s;
+}
+
+.caption h3 {
+  font-size: 21px;
+  color: #0c52a1;
+  font-weight: 600;
+}
+
+.caption p {
+  font-size: 15px;
+  font-weight: 500;
+  margin: 2px 0 12px 0;
+}
+
+.caption .social-links i {
+  font-size: 21px;
+  margin: 0 3px;
+  cursor: pointer;
+  color: #333;
+  transition: all .4s;
+}
+
+.caption .social-links i:hover {
+  color: #0c52a1;
+}

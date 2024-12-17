@@ -17,9 +17,10 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            AIMSA
-          </a>{" "}
+          <a className="navbar-brand page-scroll " href="#page-top">
+          <img className="imgg" src="./img/Aimsa.png" alt="AIMSA Logo" />
+          </a>
+     
         </div>
 
         <div
@@ -37,6 +38,7 @@ export const Navigation = (props) => {
                 About US
               </a>
             </li>
+
             <li>
               <a href="#portfolio" className="page-scroll">
                 Gallery

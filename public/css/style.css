@@ -93,6 +93,16 @@ hr {
 
 
 
+
+.imgg{
+  height: 40px;
+  align-self: center;
+  align-content: center;
+ 
+
+}
+
+
 #menu a.navbar-brand {
   font-family: "", sans-serif;
   font-size: 24px;

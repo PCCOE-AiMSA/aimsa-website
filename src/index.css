@@ -14,12 +14,15 @@ code {
 
 .home-container {
   width: 100%;
-  height: 100vh;
+  height: auto;
   display: grid;
-  grid-template-columns: repeat(4, 1fr); 
-  row-gap: 60px;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 80px;
   margin-top: 50px;
+  column-gap: 20px;
+  padding: 0 20px;
 }
+
 
 .profile-card {
   position: relative;
@@ -77,4 +80,131 @@ code {
 
 .caption .social-links i:hover {
   color: #0c52a1;
+}
+
+
+@media screen and (max-width: 1200px) {
+  .home-container {
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 70px;
+    column-gap: 15px;
+  }
+
+  .profile-card {
+    width: 200px;
+    height: 240px;
+  }
+}
+
+
+@media screen and (max-width: 992px) {
+  .home-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 50px;
+    column-gap: 10px;
+  }
+
+  .profile-card {
+    width: 240px;
+    height: 280px;
+  }
+
+  .profile-card .img img {
+    transform: translateY(-60px);
+  }
+
+  .caption {
+    transform: translateY(-95px);
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .home-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10%;
+    column-gap: 20px;
+  }
+
+  .profile-card {
+    width: 280px;
+    height: 300px;
+    padding: 25px;
+  }
+
+  .profile-card .img img {
+    transform: translateY(-80px);
+  }
+
+  .caption {
+    transform: translateY(-115px);
+  }
+
+  .caption h3 {
+    font-size: 20px;
+  }
+
+  .caption p {
+    font-size: 14px;
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .home-container {
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 10%;
+    column-gap: 20px;
+  }
+
+  .profile-card {
+    width: 250px;
+    height: 280px;
+    padding: 20px;
+  }
+
+  .profile-card .img img {
+    transform: translateY(-70px);
+  }
+
+  .caption {
+    transform: translateY(-105px);
+  }
+
+  .caption h3 {
+    font-size: 19px;
+  }
+
+  .caption p {
+    font-size: 14px;  }
+
+  .caption .social-links i {
+    font-size: 18px;
+
+  }
+}
+
+
+@media screen and (max-width: 350px) {
+  .home-container {
+    padding: 0 10px;
+  }
+
+  .profile-card {
+    width: 220px;
+    height: 260px;
+    padding: 15px;
+  }
+
+  .caption h3 {
+    font-size: 18px;
+  }
+
+  .caption p {
+    font-size: 13px;
+  }
+
+  .caption .social-links i {
+    font-size: 16px;
+  }
 }

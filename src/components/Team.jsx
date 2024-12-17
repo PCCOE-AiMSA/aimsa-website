@@ -3,7 +3,7 @@ import React from "react";
 export const Team = (props) => {
   return (
     <div id="team" className="text-center">
-      <div>
+      <div className="container">
         <h2>Meet the Team</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed

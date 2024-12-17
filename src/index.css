@@ -152,15 +152,13 @@ code {
 
 @media screen and (max-width: 480px) {
   .home-container {
+    row-gap: 180px; 
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 10%;
-    column-gap: 20px;
+    padding: 0 10px;
   }
 
   .profile-card {
-    width: 250px;
-    height: 280px;
-    padding: 20px;
+    margin-bottom: 20px; 
   }
 
   .profile-card .img img {

@@ -21,10 +21,9 @@ export const Contact = (props) => {
     e.preventDefault();
     console.log(name, email, message);
     
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_we3ijgd", "template_0t3vhjl", e.target, "cFumcRNBw-q8l7JRH")
       .then(
         (result) => {
           console.log(result.text);
@@ -148,9 +147,9 @@ export const Contact = (props) => {
       <div id="footer">
         <div className="container text-center">
           <p>
-            &copy; 2023 Issaaf Kattan React Land Page Template. Design by{" "}
-            <a href="http://www.templatewire.com" rel="nofollow">
-              TemplateWire
+            &copy; 2025 MADE WITH ❤️ BY AIMSA TECHNICAL TEAM{" "}
+            <a href="#" rel="nofollow">
+              AIMSA
             </a>
           </p>
         </div>

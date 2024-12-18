@@ -21,8 +21,8 @@ export const Team = (props) => {
                 <h3>{d.name}</h3>
                 <p>{d.job}</p>
                 <div className="social-links">
-                  <i className="fa-brands fa-facebook"></i>
-                  <i className="fa-brands fa-twitter"></i>
+                  <i className="fa fa-linkedin-square"></i>
+                  <i className="fa fa-github"></i>
                   <i className="fa-brands fa-instagram"></i>
                 </div>
               </div>

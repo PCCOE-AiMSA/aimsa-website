@@ -19,7 +19,27 @@ code {
   grid-template-columns: repeat(4, 1fr); 
   row-gap: 60px;
   margin-top: 50px;
-  
+  padding: 60px;
+  overflow-y: scroll;
+}
+
+.home-container::-webkit-scrollbar {
+  width: 10px; /* Set width of the vertical scrollbar */
+  height: 8px; /* Set height of the horizontal scrollbar */
+}
+
+.home-container::-webkit-scrollbar-thumb {
+  background: #0a1e53; /* Thumb color */
+  border-radius: 10px; /* Rounded edges for the thumb */
+}
+
+.home-container::-webkit-scrollbar-thumb:hover {
+  background: #2575fc; /* Thumb color on hover */
+}
+
+.home-container::-webkit-scrollbar-track {
+  background: #f0f0f0; /* Track color */
+  border-radius: 10px; /* Rounded edges for the track */
 }
 
 .profile-card {

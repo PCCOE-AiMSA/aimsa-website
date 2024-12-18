@@ -283,7 +283,10 @@ header .intro-text {
 
 .elm{
   background-color: #0a1e53;
-
+  border-radius: 15px;
+  padding: 30px;
+  margin: 15px 0;
+  border: 10px #1f386e;
 }
 
 #features img{
@@ -291,6 +294,28 @@ header .intro-text {
   width: 280px;
 }
 
+.feature-group {
+  padding: 30px 0;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.feature-group h3, 
+.feature-group p {
+  color: inherit;
+}
+
+.elm h3,
+.elm p {
+  color: #fff;
+}
+
+#features img {
+  height: 280px;
+  width: 280px;
+  margin-bottom: 20px;
+}
 
 /* About Section */
 #about {

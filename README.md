@@ -1,34 +1,46 @@
-# React JS Landing Page Template
+# AIMSA Student Association Website
 
-**
+Welcome to the official repository of the **Artificial Intelligence and Machine Learning Student Association (AIMSA)** website. AIMSA is a student-driven organization at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**, dedicated to promoting the study and application of AI and ML technologies.
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+---
 
-**
+## 🌟 About AIMSA
+AIMSA is a vibrant community of students passionate about Artificial Intelligence and Machine Learning. We organize workshops, seminars, hackathons, and projects to foster learning and innovation in AI/ML.
 
+This website serves as the central hub for AIMSA-related news, events, resources, and updates.
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
+---
 
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
+## 🚀 Features of the Website
+- **About AIMSA**: Information about the association's goals and vision.
+- **Events & Workshops**: Details of past and upcoming events.
+- **Gallery**: A showcase of AIMSA's vibrant activities.
+- **Team**: Meet the talented members of the AIMSA technical and core teams.
+- **Contact**: Reach out to AIMSA for collaborations or queries.
 
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
+---
 
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-If you need the contact form to work, you also need to create an EmailJS account, and modify the ```src/components/contact.jsx``` file to replace your own service ID, template ID and Public Key
+## 👩‍💻 Tech Stack
+The website is built using:
+- **Frontend**: [React.js](https://reactjs.org/)  
+- **Styling**: CSS for a responsive and user-friendly design.
 
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
+---
 
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
+## 👨‍💻 Technical Team
+The AIMSA website is designed and developed by the following talented members of AIMSA's Technical Team:
+1. **Omkar Khoche**
+2. **Anushka Patil**
+3. **Rutuja Dhongade**
+4. **Harshal Mali**
+5. **Atharva Kamtalvar**
+6. **Prithviraj**
 
-##### Issaaf kattan
+---
+
+## 🛠️ Setup Instructions
+
+1. **Clone the Repository**  
+   ```bash
+   git clone https://github.com/aimsa-pccoe/aimsa-website.git
+

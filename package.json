@@ -1,5 +1,5 @@
 {
-  "name": "AIMSA",
+  "name": "aimsa",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -31,5 +31,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "version": "1.0.0",
+  "description": "Welcome to the official repository of the **Artificial Intelligence and Machine Learning Student Association (AIMSA)** website. AIMSA is a student-driven organization at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**, dedicated to promoting the study and application of AI and ML technologies.",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

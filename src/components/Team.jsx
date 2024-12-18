@@ -21,9 +21,9 @@ export const Team = (props) => {
                 <h3>{d.name}</h3>
                 <p>{d.job}</p>
                 <div className="social-links">
-                  <i className="fa fa-linkedin-square"></i>
-                  <i className="fa fa-github"></i>
-                  <i className="fa-brands fa-instagram"></i>
+                  <a href= {d.linkedin} target="_blank"><i className="fa fa-linkedin-square"></i></a>
+                  <a href= {d.githu} target="_blank"><i className="fa fa-github"></i></a>
+                  <a href= {d.instagram} target="_blank"><i className="fa-brands fa-instagram"></i></a>
                 </div>
               </div>
             </div>

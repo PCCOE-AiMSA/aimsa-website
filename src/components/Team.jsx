@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo } from "react";
 
 export const Team = (props) => {
   const positionPriority = [
@@ -16,51 +16,51 @@ export const Team = (props) => {
     "Membership Chair",
   ];
 
-  // Ensure props.data is defined and is an array
-  const teamData = Array.isArray(props.data) ? props.data : [];
-
-  // Separate President and Vice President
-  const presidentsAndVicePresidents = teamData.filter((d) =>
-    ["President", "Vice President"].some((job) => d.job.includes(job))
+  const teamData = useMemo(
+    () => (Array.isArray(props.data) ? props.data : []),
+    [props.data]
   );
 
-  // Get the rest of the team
-  const restOfTheTeam = teamData.filter(
-    (d) => !["President", "Vice President"].some((job) => d.job.includes(job))
-  );
+  const { presidentsAndVicePresidents, restOfTheTeam } = useMemo(() => {
+    const presidentsAndVicePresidents = teamData.filter((d) =>
+      ["President", "Vice President"].some((job) => d.job.includes(job))
+    );
 
-  // Sort the rest of the team based on position priority
-  const sortedRestOfTheTeam = [...restOfTheTeam].sort((a, b) => {
-    const aIndex = positionPriority.findIndex((pos) => a.job.includes(pos));
-    const bIndex = positionPriority.findIndex((pos) => b.job.includes(pos));
+    const restOfTheTeam = teamData.filter(
+      (d) => !["President", "Vice President"].some((job) => d.job.includes(job))
+    );
 
-    if (aIndex !== -1 && bIndex !== -1) {
-      return aIndex - bIndex;
-    }
+    const sortedRestOfTheTeam = [...restOfTheTeam].sort((a, b) => {
+      const aIndex = positionPriority.findIndex((pos) => a.job.includes(pos));
+      const bIndex = positionPriority.findIndex((pos) => b.job.includes(pos));
 
-    if (aIndex !== -1) return -1;
-    if (bIndex !== -1) return 1;
+      if (aIndex !== -1 && bIndex !== -1) {
+        return aIndex - bIndex;
+      }
 
-    return 0;
-  });
+      if (aIndex !== -1) return -1;
+      if (bIndex !== -1) return 1;
 
-  // Combine President, Vice President with the sorted rest of the team
-  const sortedTeamData = [
-    ...presidentsAndVicePresidents,
-    ...sortedRestOfTheTeam,
-  ];
+      return 0;
+    });
+
+    return {
+      presidentsAndVicePresidents,
+      restOfTheTeam: sortedRestOfTheTeam,
+    };
+  }, [teamData, positionPriority]);
 
   return (
     <div id="team" className="text-center">
       <div className="container">
         <h2>Meet the Team</h2>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-          dapibus leonec.
+          Our team is a diverse group of individuals with different backgrounds,
+          skills, and expertise. We share a common goal of working together to
+          achieve our objectives and deliver results that exceed expectations.
         </p>
       </div>
       <div className="home-container">
-        {/* Render President and Vice President in first row */}
         <div className="first-row">
           {presidentsAndVicePresidents.map((d, i) => (
             <div
@@ -70,7 +70,7 @@ export const Team = (props) => {
               }`}
             >
               <div className="img">
-                <img src={d.img || "./man.jpg"} alt={d.name} />
+                <img src={d.img || "./man.jpg"} alt={d.name} loading="lazy" />
               </div>
               <div className="caption">
                 <h3>{d.name}</h3>
@@ -98,13 +98,12 @@ export const Team = (props) => {
             </div>
           ))}
         </div>
-        <br></br>
-        {sortedRestOfTheTeam.length > 0 ? (
+        {restOfTheTeam.length > 0 ? (
           <div className="team-grid">
-            {sortedRestOfTheTeam.map((d, i) => (
+            {restOfTheTeam.map((d, i) => (
               <div key={`${d.name}-${i}`} className="profile-card">
                 <div className="img">
-                  <img src={d.img || "./man.jpg"} alt={d.name} />
+                  <img src={d.img || "./man.jpg"} alt={d.name} loading="lazy" />
                 </div>
                 <div className="caption">
                   <h3>{d.name}</h3>

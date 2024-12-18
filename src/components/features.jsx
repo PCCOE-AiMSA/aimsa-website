@@ -8,16 +8,19 @@ export const Features = (props) => {
           <h2>FROM THE DESK</h2>
         </div>
         <div className="row">
-  {props.data
-    ? props.data.slice(0, 4).map((d, i) => (
-        <div key={`${d.title}-${i}`} className="col-xs-6 col-md-6">
-        <img src={d.icon} alt={d.title} className="img-fluid" />
-          <h3>{d.title}</h3>
-          <p>{d.text}</p>
+          {props.data
+            ? props.data.map((d, i) => (
+                <div 
+                  key={`${d.title}-${i}`} 
+                  className="col-xs-12 col-md-6"
+                >
+                  <img src={d.icon} alt={d.title} className="img-fluid"/>
+                  <h3>{d.title}</h3>
+                  <p>{d.text}</p>
+                </div>
+              ))
+            : "Loading..."}
         </div>
-      ))
-    : "Loading..."}
-</div>
       </div>
     </div>
   );

@@ -65,19 +65,22 @@
     }
   ],
 
-   
   
 
-  "Team": [
+  "Team": [ 
     {
       "img": "img/team/01.jpg",
       "name": "John Doe",
-      "job": "Director"
+      "job": "Director",
+      "linkedin": "https://www.linkedin.com/in/john-doe-1234567890",
+      "instagram": "https://www.instagram.com/john_doe",
+      "github": "https://www.github.com/john_doe"
     },
     {
       "img": "img/team/02.jpg",
       "name": "Mike Doe",
-      "job": "Senior Designer"
+      "job": "Senior Designer",
+      "linkedin": "https://www.linkedin.com/in/mike-doe-1234567890"
     },
     {
       "img": "img/team/03.jpg",

@@ -57,14 +57,7 @@ export const Navigation = () => {
                 <strong>TEAM</strong>
               </button>
             </li>
-            <li>
-              <button
-                onClick={() => navigate("/gallery")}
-                className="nav-item-link"
-              >
-                <strong>GALLERY</strong>
-              </button>
-            </li>
+           
             <li>
               <button
                 onClick={() => handleNavigation("contact")}
@@ -73,6 +66,15 @@ export const Navigation = () => {
                 <strong>CONTACT</strong>
               </button>
             </li>
+            <li>
+              <button
+                onClick={() => navigate("/gallery")}
+                className="nav-item-link"
+              >
+                <strong>GALLERY</strong>
+              </button>
+            </li>
+            
             <li>
               <button
                 onClick={() => handleNavigation("/")}

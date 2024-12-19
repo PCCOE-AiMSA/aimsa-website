@@ -106,7 +106,7 @@ export const About = () => {
           {/* About Text Section */}
           <div className="about-content">
             <div className="about-content-wrapper">
-              <h2 className="about-title">About Us</h2>
+              <h2 className="section-title">About Us</h2>
               <p className="about-text">
                 AiMSA is a student association that has been established for the
                 benefit of students in the CSE AIML branch at PCCOE. Our mission

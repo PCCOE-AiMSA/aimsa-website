@@ -890,3 +890,136 @@ label {
 }
 
 /* End of the Team Cards */
+
+/* General Styling */
+/* About Section Container */
+.about-section {
+  padding: 4rem 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.about-wrapper {
+  display: flex;
+  gap: 3rem;
+  align-items: center;
+}
+
+/* Image Styling */
+.about-image {
+  flex: 1;
+}
+
+.about-image-container {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 255, 255, 0.3);
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+
+}
+
+/* Content Styling */
+.about-content {
+  flex: 1;
+}
+
+.about-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.about-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #00e5ff;
+  margin-bottom: 1.5rem;
+}
+
+.about-text {
+  color: #d1d1d1;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+/* Cards Grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.info-card {
+  background: linear-gradient(135deg, #004d7a 0%, #008799 100%);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+.info-card:hover {
+  border-color: rgba(0, 255, 255, 0.4);
+  transform: translateY(-2px);
+}
+
+.info-card h3 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #00e5ff;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  color: #d1d1d1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+
+  .about-image,
+  .about-content {
+    width: 100%;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-title {
+    font-size: 2rem;
+  }
+}
+
+
+
+/* Animation */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(0, 229, 255, 0.2);
+  }
+  100% {
+    box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
+  }
+}
+
+.info-card:hover {
+  animation: glow 1.5s infinite alternate;
+}

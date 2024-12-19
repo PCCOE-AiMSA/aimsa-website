@@ -1,6 +1,13 @@
 import React from "react";
+import { Link, useNavigate } from "react-router-dom";
 
-export const Navigation = (props) => {
+export const Navigation = () => {
+  const navigate = useNavigate();
+
+  const handleNavigation = (section) => {
+    navigate("/", { state: { scrollTo: section } });
+  };
+
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
@@ -11,16 +18,14 @@ export const Navigation = (props) => {
             data-toggle="collapse"
             data-target="#bs-example-navbar-collapse-1"
           >
-            {" "}
-            <span className="sr-only">Toggle navigation</span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
-            <span className="icon-bar"></span>{" "}
+            <span className="sr-only">TOGGLE NAVIGATION</span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
+            <span className="icon-bar"></span>
           </button>
-          <a className="navbar-brand page-scroll " href="#page-top">
-          <img className="imgg" src="./img/Aimsa.png" alt="AIMSA Logo" />
-          </a>
-     
+          <Link className="navbar-brand" to="/">
+            <img className="imgg" src="./img/Aimsa.png" alt="AIMSA LOGO" />
+          </Link>
         </div>
 
         <div
@@ -29,31 +34,52 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
-                FROM THE DESK
-              </a>
+              <button
+                onClick={() => handleNavigation("features")}
+                className="nav-item-link"
+              >
+                <strong>FROM THE DESK</strong>
+              </button>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
-                About US
-              </a>
-            </li>
-
-            <li>
-              <a href="#portfolio" className="page-scroll">
-                Gallery
-              </a>
-            </li>
-          
-            <li>
-              <a href="#team" className="page-scroll">
-                Team
-              </a>
+              <button
+                onClick={() => handleNavigation("about")}
+                className="nav-item-link"
+              >
+                <strong>ABOUT US</strong>
+              </button>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
-                Contact
-              </a>
+              <button
+                onClick={() => handleNavigation("team")}
+                className="nav-item-link"
+              >
+                <strong>TEAM</strong>
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => navigate("/gallery")}
+                className="nav-item-link"
+              >
+                <strong>GALLERY</strong>
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => handleNavigation("contact")}
+                className="nav-item-link"
+              >
+                <strong>CONTACT</strong>
+              </button>
+            </li>
+            <li>
+              <button
+                onClick={() => handleNavigation("/")}
+                className="nav-item-link"
+              >
+                <strong>ARTIMAS</strong>
+              </button>
             </li>
           </ul>
         </div>

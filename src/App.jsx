@@ -1,38 +1,66 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
-
 import { Gallery } from "./components/gallery";
-
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import SmoothScroll from "smooth-scroll";
 import "./App.css";
 
-export const scroll = new SmoothScroll('a[href*="#"]', {
-  speed: 1000,
-  speedAsDuration: true,
-});
+const Home = ({ landingPageData }) => {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      const element = document.getElementById(location.state.scrollTo);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
+
+  return (
+    <>
+      <Header />
+      <div id="features">
+        {landingPageData.Features && <Features data={landingPageData.Features} />}
+      </div>
+      <div id="about">
+        {landingPageData.About && <About data={landingPageData.About} />}
+      </div>
+      <div id="team">
+        {landingPageData.Team && <Team data={landingPageData.Team} />}
+      </div>
+      <div id="contact">
+        {landingPageData.Contact && <Contact data={landingPageData.Contact} />}
+      </div>
+    </>
+  );
+};
 
 const App = () => {
   const [landingPageData, setLandingPageData] = useState({});
+
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
 
   return (
-    <div>
-      <Navigation />
-      <Header  />
-      <Features data={landingPageData.Features} />
-      <About data={landingPageData.About} />
-      <Gallery data={landingPageData.Gallery} />
-      <Team data={landingPageData.Team} />
-      <Contact data={landingPageData.Contact} />
-    </div>
+    <Router>
+      <div>
+        <Navigation />
+        <Routes>
+          <Route path="/" element={<Home landingPageData={landingPageData} />} />
+          <Route
+            path="/gallery"
+            element={<Gallery data={landingPageData.Gallery || []} />}
+          />
+        </Routes>
+      </div>
+    </Router>
   );
 };
 

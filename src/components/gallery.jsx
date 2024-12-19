@@ -1,7 +1,13 @@
 import { Image } from "./image";
-import React from "react";
+import React, {useEffect} from "react";
+import contact from "./contact.jsx";
 
 export const Gallery = (props) => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
+
+  if (!props) return null;
   return (
     <div id="portfolio" className="text-center">
       <div className="container">

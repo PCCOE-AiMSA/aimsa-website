@@ -84,6 +84,7 @@ hr {
 }
 
 /* Navigation */
+/* Navigation container */
 #menu {
   padding: 15px;
   transition: all 0.8s;
@@ -93,46 +94,29 @@ hr {
   background-color: #0a1e53;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
-
 }
 
-
-@font-face {
-  font-family: 'MyCustomFont';
-  src: url('public/fonts/fonts/ndot-47-inspired-by-nothing.otf') format('opentype');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.imgg {
-  /* height: 100px; */
-  align-self: center;
-  align-content: center;
-  width: 100px;
-}
-
-
-#menu a.navbar-brand {
-  font-family: "", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
-  color: #fff;
-  text-transform: uppercase;
-  padding: 10px;
-}
-
-#menu.navbar-default .navbar-nav>li>a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
-  color: #fff;
-  font-size: 15px;
-  font-weight: 400;
+/* Navigation items */
+.nav-item-link {
+  background: none;
+  border: none;
   padding: 8px 2px;
-  border-radius: 0;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  display: block;
+  line-height: 20px;
+  font-family: "Lato", sans-serif;
   margin: 9px 20px 0;
+  position: relative;
+  z-index: 1;
 }
 
-#menu.navbar-default .navbar-nav>li>a:after {
+/* Underline effect */
+.nav-item-link::after {
   display: block;
   position: absolute;
   left: 0;
@@ -142,46 +126,46 @@ hr {
   background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
   content: "";
   transition: width 0.2s;
+  z-index: -1;
 }
 
-#menu.navbar-default .navbar-nav>li>a:hover:after {
+.nav-item-link:hover::after,
+.nav-item-link.active::after {
   width: 100%;
 }
 
-.navbar-default .navbar-nav>.active>a,
-.navbar-default .navbar-nav>.active>a:hover,
-.navbar-default .navbar-nav>.active>a:focus {
-  background-color: transparent;
+/* Logo */
+.imgg {
+  width: 100px;
+  height: auto;
 }
 
-.navbar-default .navbar-nav>.active>a:after,
-.navbar-default .navbar-nav>.active>a:hover:after,
-.navbar-default .navbar-nav>.active>a:focus:after {
-  display: block !important;
-  position: absolute !important;
-  left: 0 !important;
-  bottom: -1px !important;
-  width: 100% !important;
-  height: 2px !important;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%) !important;
-  content: "" !important;
-  transition: width 0.2s !important;
+/* Mobile styles */
+@media (max-width: 768px) {
+  .nav-item-link {
+    padding: 10px 15px;
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+  
+  .navbar-toggle {
+    border-color: #ffffff;
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff;
+  }
+  
+  .navbar-default .navbar-toggle:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: #5ca9fb;
+  }
+  
+  .navbar-default .navbar-toggle:hover > .icon-bar {
+    background-color: #5ca9fb;
+  }
 }
-
-.navbar-toggle {
-  border-radius: 0;
-}
-
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #fff;
-  border-color: #608dfd;
-}
-
-.navbar-default .navbar-toggle:hover>.icon-bar {
-  background-color: #608dfd;
-}
-
 .section-title {
   margin-bottom: 70px;
 }

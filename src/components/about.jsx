@@ -18,7 +18,7 @@
 //               <p>Vison of aimsa is</p>
 //               <h3>Misson</h3>
 //               <p>Our mission is</p>
-                
+
 //                 </div>
 //               </div>
 //             </div>
@@ -68,7 +68,6 @@
 //               </p>
 //             </div>
 
-            
 //             <div className="about-extra">
 //               <div className="col-lg-6 col-sm-6 col-xs-12">
 //                 <h3>Vision</h3>
@@ -87,7 +86,6 @@
 // };
 
 import React from "react";
-
 
 export const About = () => {
   return (
@@ -118,11 +116,10 @@ export const About = () => {
                 that fosters learning and growth by organizing workshops,
                 seminars, and guest lectures on various topics related to
                 computer science, artificial intelligence, and machine learning.
-
                 Additionally, we facilitate opportunities for students to
                 connect with industry professionals and build networks that can
-                lead to future career prospects. Our association is committed
-                to promoting teamwork, leadership, and innovation among our
+                lead to future career prospects. Our association is committed to
+                promoting teamwork, leadership, and innovation among our
                 members, and we strive to make a positive impact on the larger
                 community.
               </p>

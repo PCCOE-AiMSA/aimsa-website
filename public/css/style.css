@@ -149,24 +149,25 @@ hr {
     margin: 0;
     text-align: left;
   }
-  
+
   .navbar-toggle {
     border-color: #ffffff;
   }
-  
+
   .navbar-default .navbar-toggle .icon-bar {
     background-color: #ffffff;
   }
-  
+
   .navbar-default .navbar-toggle:hover {
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #5ca9fb;
   }
-  
-  .navbar-default .navbar-toggle:hover > .icon-bar {
+
+  .navbar-default .navbar-toggle:hover>.icon-bar {
     background-color: #5ca9fb;
   }
 }
+
 .section-title {
   margin-bottom: 70px;
 }
@@ -393,57 +394,6 @@ header .intro-text {
   margin: 30px 0;
 }
 
-/* Services Section */
-#services {
-  padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
-}
-
-#services .service-desc {
-  margin: 10px 10px 20px;
-}
-
-#services h2 {
-  color: #fff;
-}
-
-#services .section-title h2::after {
-  position: absolute;
-  content: "";
-  background: rgba(255, 255, 255, 0.3);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  margin-left: -30px;
-  left: 50%;
-}
-
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
-
-#services h3 {
-  font-weight: 500;
-  padding: 5px 0;
-  color: #fff;
-}
-
-#services p {
-  color: rgba(255, 255, 255, 0.75);
-}
-
-#services .service-desc {
-  margin-bottom: 40px;
-}
-
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
@@ -496,77 +446,6 @@ header .intro-text {
 
 .hover-bg:hover .hover-text {
   opacity: 1;
-}
-
-/* Testimonials Section */
-#testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
-}
-
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-
-.testimonial {
-  position: relative;
-  padding: 20px;
-}
-
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
-}
-
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-}
-
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
-}
-
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
-
-/* Team Section */
-#team {
-  padding: 100px 0;
-}
-
-#team h4 {
-  margin: 5px 0;
-}
-
-#team .team-img {
-  width: 240px;
-}
-
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
 }
 
 /* Contact Section */
@@ -719,32 +598,8 @@ label {
   background: #fff;
 }
 
-/* Footer Section*/
-#footer {
-  background: #f6f6f6;
-  padding: 30px 0;
-}
 
-#footer p {
-  color: #888;
-  font-size: 14px;
-}
-
-#footer a {
-  color: #608dfd;
-}
-
-#footer a:hover {
-  border-bottom: 2px solid #608dfd;
-}
-
-@media (max-width: 768px) {
-  #about img {
-    margin: 50px 0;
-  }
-}
-
-/* Team Section */
+/* Team Section Start*/
 .home-container {
   width: 100%;
   max-width: 1400px;
@@ -843,6 +698,45 @@ label {
   color: #0c52a1;
 }
 
+/* Image Skeleten */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.image-skeleton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite;
+  border-radius: 8px;
+}
+
 /* Responsiveness */
 @media screen and (max-width: 1200px) {
   .home-container {
@@ -892,12 +786,11 @@ label {
 
 /* End of the Team Cards */
 
-/* General Styling */
 /* About Section Container */
 .about-section {
   padding: 4rem 0;
-  background-color: #000000;
-  color: #ffffff;
+  background-color: white;
+  color: black;
 }
 
 .container {
@@ -914,7 +807,7 @@ label {
 
 /* Image Styling */
 .about-image {
-  flex: 1;
+  object-fit: cover;
 }
 
 .about-image-container {
@@ -929,7 +822,6 @@ label {
   height: 100%;
   object-fit: cover;
   display: block;
-
 }
 
 /* Content Styling */
@@ -951,7 +843,7 @@ label {
 }
 
 .about-text {
-  color: #d1d1d1;
+  color: black;
   line-height: 1.7;
   margin-bottom: 1rem;
 }
@@ -1016,6 +908,7 @@ label {
   0% {
     box-shadow: 0 0 5px rgba(0, 229, 255, 0.2);
   }
+
   100% {
     box-shadow: 0 0 20px rgba(0, 229, 255, 0.4);
   }

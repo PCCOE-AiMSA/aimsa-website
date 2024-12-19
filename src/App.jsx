@@ -2,13 +2,13 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-import { Features } from "./components/features";
+import { Desk } from "./components/Desk";
 import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
-import "./App.css";
+
 
 const Home = ({ landingPageData }) => {
   const location = useLocation();
@@ -26,7 +26,7 @@ const Home = ({ landingPageData }) => {
     <>
       <Header />
       <div id="features">
-        {landingPageData.Features && <Features data={landingPageData.Features} />}
+        {landingPageData.Features && <Desk data={landingPageData.Features} />}
       </div>
       <div id="about">
         {landingPageData.About && <About data={landingPageData.About} />}

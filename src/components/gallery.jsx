@@ -1,6 +1,5 @@
 import { Image } from "./image";
 import React, {useEffect} from "react";
-import contact from "./contact.jsx";
 
 export const Gallery = (props) => {
   useEffect(() => {

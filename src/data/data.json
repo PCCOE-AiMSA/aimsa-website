@@ -72,6 +72,7 @@
       "instagram": "https://www.linkedin.com/in/khelesh-patil",
       "github": "#"
     },
+    
     {
       "img": "img/team/ST.webp",
       "name": "Saniya Thigale ",
@@ -79,6 +80,14 @@
       "linkedin": "https://www.instagram.com/__saniya16__/profilecard/?igsh=MzRldHRhMXp5cm05",
       "instagram": "https://www.linkedin.com/in/saniya-thigale-a8ba49259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
+    },
+    {
+      "img": "img/team/HARSHAL-modified.webp",
+      "name": "Harshal Mali ",
+      "job": "Technical Head ",
+      "linkedin": "https://www.linkedin.com/in/harshal-mali-87800729a/",
+      "instagram": "https://www.instagram.com/harshal_.45/",
+      "github": "https://github.com/HARSHGit45"
     },
     {
       "img": "img/team/ATHARVA-modified.webp",
@@ -129,6 +138,15 @@
       "github": "#"
     },
     {
+      "img": "img/team/SAGAR-modified.webp",
+      "name": "Sagar Kartagi ",
+      "job": "Event Head ",
+      "linkedin": "https://www.linkedin.com/in/sagar-karatagi-28a485259/",
+      "instagram": "/",
+      "github": "/"
+    },
+
+    {
       "img": "img/team/ANUSHKA-modified.webp",
       "name": "Anushka Patil",
       "job": "Technical Head ",
@@ -156,6 +174,14 @@
     {
       "img": "img/team/SOHAM-modified.webp",
       "name": "Soham Mhatre",
+      "job": "Secretary ",
+      "linkedin": "https://www.instagram.com/infinite_dreamer_09/",
+      "instagram": "https://www.linkedin.com/in/mhatresoham",
+      "github": "#"
+    },
+    {
+      "img": "img/team/FELINA-modified.webp",
+      "name": "Felina Mathews",
       "job": "Secretary ",
       "linkedin": "https://www.instagram.com/infinite_dreamer_09/",
       "instagram": "https://www.linkedin.com/in/mhatresoham",
@@ -201,6 +227,7 @@
       "instagram": "https://www.linkedin.com/in/swetank-raut-97b2651b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
     },
+    
     {
       "img": "#",
       "name": "Omkar Khoche ",

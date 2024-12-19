@@ -65,7 +65,7 @@
 
   "Team": [
     {
-      "img": "img/team/kp.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/kp_dagxjg.webp",
       "name": "Khelesh Patil",
       "job": "President",
       "instagram": "https://www.instagram.com/sunny_the.kp/profilecard/?igsh=amxpNTNrdGEyZTM5",
@@ -74,7 +74,7 @@
     },
     
     {
-      "img": "img/team/ST.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/ST_rf1s2n.webp",
       "name": "Saniya Thigale ",
       "job": "Vice President ",
       "instagram": "https://www.instagram.com/__saniya16__/profilecard/?igsh=MzRldHRhMXp5cm05",
@@ -82,7 +82,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/HARSHAL-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HARSHAL-modified_a5hanl.webp",
       "name": "Harshal Mali ",
       "job": "Technical Head ",
       "linkedin": "https://www.linkedin.com/in/harshal-mali-87800729a/",
@@ -90,7 +90,7 @@
       "github": "https://github.com/HARSHGit45"
     },
     {
-      "img": "img/team/ATHARVA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611484/ATHARVA-modified_l94lhu.webp",
       "name": "Atharva Kamtalwar ",
       "job": "Technical Head",
       "instagram": "https://www.instagram.com/atharva.ipynb",
@@ -98,7 +98,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/HARSH-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HARSH-modified_vpbhnt.webp",
       "name": "Harsh Vahal",
       "job": "Social Media Head",
       "instagram": "https://www.instagram.com/harsh.vahal3074",
@@ -106,7 +106,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/SUPRIYA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SUPRIYA-modified_iedg2p.webp",
       "name": "Supriya Baride ",
       "job": "Social Media Head ",
       "instagram": "https://www.instagram.com/supriya_b28/profilecard/?igsh=OHM0d21odHkxNmhl",
@@ -114,7 +114,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/YUKTA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/YUKTA-modified_nduheb.webp",
       "name": "Yukta Joshi",
       "job": "Marketing Head",
       "instagram": "https://www.instagram.com/yukta_joshi_22",
@@ -122,7 +122,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/NAMISH-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/NAMISH-modified_i3s3c7.webp",
       "name": "Namish Arora",
       "job": "Treasurer",
       "instagram": "??",
@@ -130,7 +130,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/PRATHAM-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/PRATHAM-modified_yhpkzz.webp",
       "name": "Pratham Mali ",
       "job": "Event Head ",
       "instagram": "https://www.instagram.com/pratham_01_mali/profilecard/?igsh=ZmJrcWhnMWs0bjkw",
@@ -138,7 +138,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/SAGAR-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/SAGAR-modified_efxooo.webp",
       "name": "Sagar Kartagi ",
       "job": "Event Head ",
       "linkedin": "https://www.linkedin.com/in/sagar-karatagi-28a485259/",
@@ -147,7 +147,7 @@
     },
 
     {
-      "img": "img/team/ANUSHKA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611483/ANUSHKA-modified_akvqql.webp",
       "name": "Anushka Patil",
       "job": "Technical Head ",
       "instagram": "https://www.instagram.com/anushka_patil27/profilecard/?igsh=MTVnM2o0ZGY2dXdraw==",
@@ -156,7 +156,7 @@
     },
 
     {
-      "img": "img/team/RUTUJ-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/RUTUJ-modified_i72jc6.webp",
       "name": "Rutuj Dhongade",
       "job": "Technical Head",
       "instagram": "https://www.instagram.com/rutuj_dhongade?igsh=NGVhN2U2NjQ0Yg==",
@@ -164,7 +164,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/TEJASHREE-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/TEJASHREE-modified_sexlou.webp",
       "name": "Tejashree Chougule ",
       "job": "Design Head",
       "instagram": "https://www.instagram.com/teja_shrii_?igsh=MXVkeW5oMnZidjV5dg==",
@@ -172,7 +172,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/SOHAM-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SOHAM-modified_t6mrlv.webp",
       "name": "Soham Mhatre",
       "job": "Secretary ",
       "instagram": "https://www.instagram.com/infinite_dreamer_09/",
@@ -180,7 +180,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/FELINA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/FELINA-modified_igzkhw.webp",
       "name": "Felina Mathews",
       "job": "Secretary ",
       "instagram": "https://www.instagram.com/infinite_dreamer_09/",
@@ -188,7 +188,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/SUSHANT-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611489/SUSHANT-modified_rqtpyk.webp",
       "name": "Sushant Kabra",
       "job": "Marketing Head",
       "instagram": "https://www.instagram.com/sushantkabra_33",
@@ -196,7 +196,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/PRAGATI-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/PRAGATI-modified_cicn51.webp",
       "name": "Pragati Hinge",
       "job": "Design Head",
       "instagram": "https://www.instagram.com/yikespragati",
@@ -204,7 +204,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/NISHKA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/NISHKA-modified_pvtada.webp",
       "name": "Nishka Salunkhe ",
       "job": "Membership Chair",
       "instagram": "#",
@@ -212,7 +212,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/ARYA-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611483/ARYA-modified_bvtkmd.webp",
       "name": "Arya Singh",
       "job": "Social Media Head",
       "instagram": "https://www.instagram.com/arya.1207/profilecard/?igsh=azV1azJzOThiOWF5",
@@ -220,7 +220,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/SWETANK-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611489/SWETANK-modified_arqkke.webp",
       "name": "Swetank  Raut",
       "job": "Social Media & Photography Head ",
       "instagram": "https://www.instagram.com/swetank_rog619/profilecard/?igsh=cGlmeGFuYmE2ZGpz",
@@ -237,7 +237,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/BHAVESH-modified.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/BHAVESH-modified_w8hk57.webp",
       "name": "Bhavesh Pagare",
       "job": "Photography Head",
       "instagram": "https://www.instagram.com/_me.bhavesh_/profilecard/?igsh=MWgycTMzYm9uYWN1dA==",
@@ -245,7 +245,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/TEJAS-modified.webp",
+      "img": "img/team/TEJAS-modified.webphttps://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/TEJAS-modified_nigi5m.webp",
       "name": "Tejas Ubale",
       "job": "Treasurer",
       "instagram": "https://www.instagram.com/tejazzz_/profilecard/?igsh=c2NpMnkwNGx1cjdt",
@@ -264,22 +264,22 @@
 
   "Features": [
     {
-      "icon": "img/team/HOD.png",
+      "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HOD_sy06kw.png",
       "title": "Dr. Anuradha Thakare",
       "text": "Head Of Department CSE(AIML)"
     },
     {
-      "icon": "img/team/pd.png",
+      "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/pd_kfjayy.png",
       "title": "Prof. Pallavi Dhade",
       "text": "SDW Coordinator"
     },
     {
-      "icon": "img/team/kp.webp",
+      "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/kp_dagxjg.webp",
       "title": "Khelesh Patil",
       "text": "President AIMSA"
     },
     {
-      "icon": "img/team/ST.webp",
+      "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/ST_rf1s2n.webp",
       "title": "Saniya Thigale",
       "text": "Vice-President AIMSA"
     }

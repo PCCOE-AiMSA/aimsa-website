@@ -1,6 +1,56 @@
-import React, { useMemo } from "react";
+import React, { useMemo, useState, useEffect } from "react";
+
+const ImageWithLoading = ({ src, alt, onLoad }) => {
+  const [isLoading, setIsLoading] = useState(true);
+  
+  return (
+    <div className="image-container">
+      {isLoading && (
+        <div className="image-skeleton"></div>
+      )}
+      <img
+        src={src || "./man.jpg"}
+        alt={alt}
+        loading="lazy"
+        className={`team-image ${isLoading ? 'hidden' : 'fade-in'}`}
+        onLoad={() => {
+          setIsLoading(false);
+          onLoad?.();
+        }}
+      />
+    </div>
+  );
+};
+
+const ProfileCard = ({ data, className = "" }) => {
+  return (
+    <div className={`profile-card ${className}`}>
+      <div className="img">
+        <ImageWithLoading src={data.img} alt={data.name} />
+      </div>
+      <div className="caption">
+        <h3>{data.name}</h3>
+        <p>{data.job}</p>
+        <div className="social-links">
+          <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
+            <i className="fa fa-linkedin-square"></i>
+          </a>
+          <a href={data.github} target="_blank" rel="noopener noreferrer">
+            <i className="fa fa-github"></i>
+          </a>
+          <a href={data.instagram} target="_blank" rel="noopener noreferrer">
+            <i className="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
 
 export const Team = (props) => {
+  const [isLoading, setIsLoading] = useState(true);
+  const [loadedImages, setLoadedImages] = useState(0);
+
   const positionPriority = [
     "President",
     "Vice President",
@@ -50,6 +100,16 @@ export const Team = (props) => {
     };
   }, [teamData, positionPriority]);
 
+  useEffect(() => {
+    if (loadedImages === teamData.length) {
+      setIsLoading(false);
+    }
+  }, [loadedImages, teamData.length]);
+
+  const handleImageLoad = () => {
+    setLoadedImages(prev => prev + 1);
+  };
+
   return (
     <div id="team" className="text-center">
       <div className="container">
@@ -60,85 +120,46 @@ export const Team = (props) => {
           achieve our objectives and deliver results that exceed expectations.
         </p>
       </div>
+      
       <div className="home-container">
         <div className="first-row">
           {presidentsAndVicePresidents.map((d, i) => (
-            <div
+            <ProfileCard
               key={`${d.name}-${i}`}
-              className={`profile-card ${
-                i === 0 ? "first-row-left" : "first-row-right"
-              }`}
-            >
-              <div className="img">
-                <img src={d.img || "./man.jpg"} alt={d.name} loading="lazy" />
-              </div>
-              <div className="caption">
-                <h3>{d.name}</h3>
-                <p>{d.job}</p>
-                <div className="social-links">
-                  <a
-                    href={d.linkedin}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa fa-linkedin-square"></i>
-                  </a>
-                  <a href={d.github} target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-github"></i>
-                  </a>
-                  <a
-                    href={d.instagram}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa-brands fa-instagram"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+              data={d}
+              className={i === 0 ? "first-row-left" : "first-row-right"}
+            />
           ))}
         </div>
+
         {restOfTheTeam.length > 0 ? (
           <div className="team-grid">
             {restOfTheTeam.map((d, i) => (
-              <div key={`${d.name}-${i}`} className="profile-card">
+              <ProfileCard
+                key={`${d.name}-${i}`}
+                data={d}
+                onImageLoad={handleImageLoad}
+              />
+            ))}
+          </div>
+        ) : (
+          <div className="loading-grid">
+            {[1, 2, 3].map((n) => (
+              <div key={n} className="profile-card loading">
                 <div className="img">
-                  <img src={d.img || "./man.jpg"} alt={d.name} loading="lazy" />
+                  <div className="skeleton-image"></div>
                 </div>
                 <div className="caption">
-                  <h3>{d.name}</h3>
-                  <p>{d.job}</p>
-                  <div className="social-links">
-                    <a
-                      href={d.linkedin}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-linkedin-square"></i>
-                    </a>
-                    <a
-                      href={d.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa fa-github"></i>
-                    </a>
-                    <a
-                      href={d.instagram}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <i className="fa-brands fa-instagram"></i>
-                    </a>
-                  </div>
+                  <div className="skeleton-text"></div>
+                  <div className="skeleton-text short"></div>
                 </div>
               </div>
             ))}
           </div>
-        ) : (
-          <div>Loading...</div>
         )}
       </div>
     </div>
   );
 };
+
+export default Team;

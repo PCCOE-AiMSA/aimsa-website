@@ -1,13 +1,14 @@
 import React from "react";
 
-export const Features = (props) => {
+export const Desk = (props) => {
   return (
-    <div id="features" className="text-center">
+    <div id="desk" className="text-center">
       <div className="container">
         <div className="col-md-10 col-md-offset-1 section-title">
           <h2>FROM THE DESK</h2>
         </div>
         <div className="row" style={{padding: "0 15px"}}>
+
           {/* First group */}
           <div className="col-md-12 feature-group elm">
             <div className="row">
@@ -23,6 +24,7 @@ export const Features = (props) => {
               ))}
             </div>
           </div>
+
           {/* Second group */}
           <div className="col-md-12 feature-group elm">
             <div className="row">

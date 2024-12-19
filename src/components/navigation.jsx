@@ -23,7 +23,7 @@ export const Navigation = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link className="navbar-brand" to="/">
+          <Link className="navbar-brand" onClick={()=> handleNavigation('header')}>
             <img className="imgg" src="./img/Aimsa.png" alt="AIMSA LOGO" />
           </Link>
         </div>
@@ -35,7 +35,7 @@ export const Navigation = () => {
           <ul className="nav navbar-nav navbar-right">
             <li>
               <button
-                onClick={() => handleNavigation("features")}
+                onClick={() => handleNavigation("desk")}
                 className="nav-item-link"
               >
                 <strong>FROM THE DESK</strong>

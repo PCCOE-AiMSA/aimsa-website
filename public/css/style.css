@@ -138,6 +138,7 @@ hr {
 .imgg {
   width: 100px;
   height: auto;
+  margin-bottom: 10px;
 }
 
 /* Mobile styles */

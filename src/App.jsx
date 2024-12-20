@@ -9,7 +9,6 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 
-
 const Home = ({ landingPageData }) => {
   const location = useLocation();
 

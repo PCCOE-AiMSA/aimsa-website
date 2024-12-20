@@ -5,6 +5,9 @@ export const Header = () => {
     { id: 1, src: "img/intro-bg.jpg", alt: "intro1" },
     { id: 2, src: "img/team-2.jpg", alt: "intro2" },
     { id: 3, src: "img/teachers_day.jpeg", alt: "intro3" },
+    { id: 4, src: "img/intro-bg.jpg", alt: "intro1" },
+    { id: 5, src: "img/team-2.jpg", alt: "intro2" },
+    { id: 6, src: "img/teachers_day.jpeg", alt: "intro3" },
    
   ];
 

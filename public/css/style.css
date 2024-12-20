@@ -1,10 +1,4 @@
-@font-face {
-  font-family: 'AIMSAFONT';
-  src: url("../fonts/ndot-47-inspired-by-nothing.otf") format("opentype");
-  font-weight: normal;
-  font-style: normal;
-  /*If you want to change the font then keep the new custom font name as AIMSAFONT as it is used multiple times*/
-}
+
 body,
 html {
   font-family: "AIMSAFONT", sans-serif !important;

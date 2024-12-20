@@ -1,39 +1,67 @@
-import React from "react";
 
-export const Header = () => {
-  const slides = [
-    { id: 1, src: "img/intro-bg.jpg", alt: "intro1" },
-    { id: 2, src: "img/team-2.jpg", alt: "intro2" },
-    { id: 3, src: "img/teachers_day.jpeg", alt: "intro3" },
-    { id: 4, src: "img/intro-bg.jpg", alt: "intro1" },
-    { id: 5, src: "img/team-2.jpg", alt: "intro2" },
-    { id: 6, src: "img/teachers_day.jpeg", alt: "intro3" },
-   
-  ];
+import React, { useState, useEffect } from "react";
+
+const slides = [
+  {
+    id: 1,
+    src: "/img/intro-bg.jpg",
+    alt: "Intro 1",
+    title: "Welcome To AiMSA",
+    subtitle: "Innovating the Future of AI",
+  },
+  {
+    id: 2,
+    src: "/img/team-2.jpg",
+    alt: "Team",
+    title: "Our Talented Team",
+    subtitle: "Driving Technology Forward",
+  },
+  {
+    id: 3,
+    src: "/img/teachers_day.jpeg",
+    alt: "Teachers",
+    title: "Empowering Education",
+    subtitle: "AI in Learning",
+  },
+];
+
+export const Header: React.FC = () => {
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prevSlide) => (prevSlide + 1) % slides.length);
+    }, 5000);
+
+    return () => clearInterval(timer);
+  }, []);
 
   return (
-    <div className="header">
-      <div className="slider">
-        <div className="slide-track">
-          {/* Original slides */}
-          {slides.map((slide) => (
-            <div className="slide" key={slide.id}>
-              <img src={slide.src} alt={slide.alt} />
+    <div className="hero-section">
+      <div className="hero-slider">
+        {slides.map((slide, index) => (
+          <div
+            key={slide.id}
+            className={`slide ${index === currentSlide ? "active" : ""}`}
+            style={{ backgroundImage: `url(${slide.src})` }}
+          >
+            <div className="content">
+              <h1>{slide.title}</h1>
+              <p>{slide.subtitle}</p>
             </div>
-          ))}
-          {/* Duplicate slides for smooth infinite scroll */}
-          {slides.map((slide) => (
-            <div className="slide" key={`duplicate-${slide.id}`}>
-              <img src={slide.src} alt={slide.alt} />
-            </div>
+          </div>
+        ))}
+        <div className="overlay"></div>
+        <div className="slider-nav">
+          {slides.map((_, index) => (
+            <button
+              key={index}
+              className={`nav-dot ${index === currentSlide ? "active" : ""}`}
+              onClick={() => setCurrentSlide(index)}
+            ></button>
           ))}
         </div>
       </div>
-       {/* Add Text and Tagline below carousel */}
-       <div className="text-container">
-          <h1 className="main-heading">AiMSA</h1>
-          <p className="tagline">Innovating the Future of AI and Technology</p>
-        </div>
     </div>
   );
 };

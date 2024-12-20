@@ -28,7 +28,7 @@ export const Header = () => {
       </div>
        {/* Add Text and Tagline below carousel */}
        <div className="text-container">
-          <h1 className="main-heading">AIMSA</h1>
+          <h1 className="main-heading">AiMSA</h1>
           <p className="tagline">Innovating the Future of AI and Technology</p>
         </div>
     </div>

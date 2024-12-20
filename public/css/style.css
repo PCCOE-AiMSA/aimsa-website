@@ -1,6 +1,7 @@
+
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "AIMSAFONT", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -12,7 +13,7 @@ html {
 h2,
 h3,
 h4 {
-  font-family: "Raleway", sans-serif;
+  font-family: "AIMSAFONT", "Raleway", sans-serif;
 }
 
 h2 {
@@ -109,7 +110,7 @@ hr {
   transition: all 0.3s ease;
   display: block;
   line-height: 20px;
-  font-family: "Lato", sans-serif;
+  font-family: "AIMSAFONT","Lato", sans-serif;
   margin: 9px 20px 0;
   position: relative;
   z-index: 1;
@@ -195,7 +196,7 @@ hr {
 }
 
 .btn-custom {
-  font-family: "Raleway", sans-serif;
+  font-family: "AIMSAFONT","Raleway", sans-serif;
   text-transform: uppercase;
   color: #fff;
   background-color: #5ca9fb;
@@ -254,7 +255,7 @@ a:focus,
 }
 
 .intro h1 {
-  font-family: "Raleway", sans-serif;
+  font-family: "AIMSAFONT","Raleway", sans-serif;
   color: #fff;
   font-size: 82px;
   font-weight: 700;
@@ -374,7 +375,7 @@ header .intro-text {
 
 #about .about-text li:before {
   content: "\f00c";
-  font-family: "FontAwesome";
+  font-family: "AIMSAFONT","FontAwesome";
   color: #5ca9fb;
   font-size: 11px;
   font-weight: 300;
@@ -511,7 +512,7 @@ header .intro-text {
 label {
   font-size: 12px;
   font-weight: 400;
-  font-family: "Open Sans", sans-serif;
+  font-family: "AIMSAFONT","Open Sans", sans-serif;
   float: left;
 }
 
@@ -923,4 +924,171 @@ label {
 
 .info-card:hover {
   animation: glow 1.5s infinite alternate;
+}
+
+/* Added by Atharva  */
+/* header Individual Slide */
+.text-container {
+  text-align: center;
+  padding: 15px;
+}
+
+/* Main Heading (AIMSA) */
+.main-heading {
+  font-size: 72px; 
+  font-weight: bold;
+  color: #333; 
+  margin: 0;
+  letter-spacing: 4px; 
+}
+
+/* Tagline below AIMSA */
+.tagline {
+  font-size: 24px; 
+  color: #555; 
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.slider {
+  height: 580px; 
+  margin: auto 0; 
+  position: relative;
+  width: 98%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+/* Gradient Shadows */
+.slider::before,
+.slider::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: 10%; 
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.slider::before {
+  left: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+.slider::after {
+  right: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+/* Slide Track */
+.slide-track {
+  display: flex;
+  gap: 15px; 
+  width: calc((650px + 15px) * 18); 
+  animation: scroll 60s linear infinite; 
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc((-650px - 15px) * 9)); /* Half of slides */
+  }
+}
+
+/* Individual Slide */
+.slide {
+  height: 650px; 
+  width: 750px; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden; 
+  position: relative;
+  box-sizing: border-box;
+}
+
+/* Slide Image */
+.slide>img {
+  margin-top: 50px;
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  transition: transform 0.3s ease-in-out;
+}
+
+.slide>img:hover {
+  margin-top: 50px;
+  transform: scale(1.1); /* Smooth zoom effect */
+  z-index: 10; 
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .slide {
+    width: 500px; 
+    height: 450px;
+  }
+
+  .slide-track {
+    width: calc((500px + 15px) * 18);
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc((-500px - 15px) * 9));
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .slider {
+    height: 400px; 
+  }
+  .slide {
+    width: 400px; 
+    height: 350px;
+  }
+
+  .slide-track {
+    width: calc((400px + 15px) * 18);
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc((-400px - 15px) * 9));
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .slider {
+    height: 400px; 
+  }
+  .slide {
+    width: 450px; 
+    height: 450px;
+  }
+
+  .slide-track {
+    width: calc((300px + 15px) * 18);
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc((-300px - 15px) * 9));
+    }
+  }
 }

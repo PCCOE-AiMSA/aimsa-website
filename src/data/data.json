@@ -17,50 +17,56 @@
 
   "Gallery": [
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
+      "title": "Adrenaline Rush",
+      "largeImage": "img/gallery/Adrenaline.jpeg",
+      "smallImage": "img/gallery/Adrenaline.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
+      "title": "Among us",
+      "largeImage": "img/gallery/amongus.jpg",
+      "smallImage": "img/gallery/amongus.jpg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
+      "title": "Build your Own Website",
+      "largeImage": "img/gallery/Build Your Own Website.jpeg",
+      "smallImage": "img/gallery/Build Your Own Website.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
+      "title": "HackMatrix 1.0",
+      "largeImage": "img/gallery/hack.jpeg",
+      "smallImage": "img/gallery/hack.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
+      "title": "HackMatrix 2.0",
+      "largeImage": "img/gallery/hack1.webp",
+      "smallImage": "img/gallery/hack1.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
+      "title": "Houdini Heist",
+      "largeImage": "img/gallery/houdini_r2.webp",
+      "smallImage": "img/gallery/houdini_r2.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
+      "title": "induction",
+      "largeImage": "img/gallery/induction.jpeg",
+      "smallImage": "img/gallery/induction.jpeg"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
+      "title": "NeuroDrain",
+      "largeImage": "img/gallery/neuro_r1.webp",
+      "smallImage": "img/gallery/neuro_r1.webp"
     },
     {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
+      "title": "VR Experience",
+      "largeImage": "img/gallery/vr_exp.webp",
+      "smallImage": "img/gallery/vr_exp.webp"
+    },
+    {
+      "title": "teachers_Day",
+      "largeImage": "img/gallery/teachers_day.jpeg",
+      "smallImage": "img/gallery/teachers_day.jpeg"
     }
+
   ],
 
   "Team": [
@@ -94,8 +100,8 @@
       "name": "Atharva Kamtalwar ",
       "job": "Technical Head",
       "instagram": "https://www.instagram.com/atharva.ipynb",
-      "linkedin": "https://www.linkedin.com/in/atharvakamtalwar",
-      "github": "#"
+      "linkedin": "https://www.linkedin.com/in/atharva-kamtalwar",
+      "github": "https://github.com/atharvakamtalwar"
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HARSH-modified_vpbhnt.webp",
@@ -245,7 +251,7 @@
       "github": "#"
     },
     {
-      "img": "img/team/TEJAS-modified.webphttps://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/TEJAS-modified_nigi5m.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/TEJAS-modified_nigi5m.webp",
       "name": "Tejas Ubale",
       "job": "Treasurer",
       "instagram": "https://www.instagram.com/tejazzz_/profilecard/?igsh=c2NpMnkwNGx1cjdt",
@@ -276,12 +282,12 @@
     {
       "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/kp_dagxjg.webp",
       "title": "Khelesh Patil",
-      "text": "President AIMSA"
+      "text": "President AiMSA"
     },
     {
       "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/ST_rf1s2n.webp",
       "title": "Saniya Thigale",
-      "text": "Vice-President AIMSA"
+      "text": "Vice-President AiMSA"
     }
   ]
 }

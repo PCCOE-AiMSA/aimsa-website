@@ -135,6 +135,29 @@
       "linkedin": "https://www.linkedin.com/in/namish-arora-55981a259/",
       "github": "#"
     },
+
+   
+     {
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SIDDHESH-modified_qx6gkl.webp",
+      "name": "Siddesh Pohare",
+      "job": "Marketing Head",
+      "instagram": "??",
+      "linkedin": "??",
+      "github": "??"
+    },
+
+    {
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/PRANAV-modified_q1pd4j.webp",
+      "name": "Pranav Jagtap",
+      "job": "Marketing and Publicity Head",
+      "instagram": "??",
+      "linkedin": "??",
+      "github": "??"
+    },
+
+
+
+
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/PRATHAM-modified_yhpkzz.webp",
       "name": "Pratham Mali ",
@@ -145,7 +168,7 @@
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/SAGAR-modified_efxooo.webp",
-      "name": "Sagar Kartagi ",
+      "name": "Sagar Karatagi ",
       "job": "Event Head ",
       "linkedin": "https://www.linkedin.com/in/sagar-karatagi-28a485259/",
       "instagram": "/",
@@ -258,6 +281,17 @@
       "linkedin": "https://www.linkedin.com/in/tejas-ubale-b41503253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
     }
+    ,
+    {
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/PARTH-modified_1_xfz9fv.webp",
+      "name": "Parth Chitale",
+      "job": "Membership Chair",
+      "instagram": "??",
+      "linkedin": "??",
+      "github": "??"
+    }
+
+    
   ],
 
   "Contact": {

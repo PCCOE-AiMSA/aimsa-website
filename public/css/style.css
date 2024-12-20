@@ -111,7 +111,7 @@ hr {
   display: block;
   line-height: 20px;
   font-family: "AIMSAFONT","Lato", sans-serif;
-  margin: 9px 20px 0;
+  margin: 0px 20px 0;
   position: relative;
   z-index: 1;
 }

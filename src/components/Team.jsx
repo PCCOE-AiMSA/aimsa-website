@@ -1,56 +1,53 @@
-import React, { useMemo, useState, useEffect } from "react";
+import React, { useMemo, useState } from "react";
 
-const ImageWithLoading = ({ src, alt, onLoad }) => {
-  const [isLoading, setIsLoading] = useState(true);
-  
+const ProfileImage = ({ src, alt }) => {
+  const [hasError, setHasError] = useState(false);
+
+  if (!src || hasError) {
+    return <div className="skeleton-image" />;
+  }
+
   return (
-    <div className="image-container">
-      {isLoading && (
-        <div className="image-skeleton"></div>
-      )}
-      <img
-        src={src || "./man.jpg"}
-        alt={alt}
-        loading="lazy"
-        className={`team-image ${isLoading ? 'hidden' : 'fade-in'}`}
-        onLoad={() => {
-          setIsLoading(false);
-          onLoad?.();
-        }}
-      />
-    </div>
+    <img
+      src={src}
+      alt={alt}
+      className="team-image"
+      loading="eager"
+      onError={() => setHasError(true)}
+    />
   );
 };
 
-const ProfileCard = ({ data, className = "" }) => {
-  return (
-    <div className={`profile-card ${className}`}>
-      <div className="img">
-        <ImageWithLoading src={data.img} alt={data.name} />
-      </div>
-      <div className="caption">
-        <h3>{data.name}</h3>
-        <p>{data.job}</p>
-        <div className="social-links">
+const ProfileCard = ({ data, className = "" }) => (
+  <div className={`profile-card ${className}`}>
+    <div className="img">
+      <ProfileImage src={data.img} alt={data.name} />
+    </div>
+    <div className="caption">
+      <h3>{data.name}</h3>
+      <p>{data.job}</p>
+      <div className="social-links">
+        {data.linkedin && (
           <a href={data.linkedin} target="_blank" rel="noopener noreferrer">
             <i className="fa fa-linkedin-square"></i>
           </a>
+        )}
+        {data.github && (
           <a href={data.github} target="_blank" rel="noopener noreferrer">
             <i className="fa fa-github"></i>
           </a>
+        )}
+        {data.instagram && (
           <a href={data.instagram} target="_blank" rel="noopener noreferrer">
             <i className="fa-brands fa-instagram"></i>
           </a>
-        </div>
+        )}
       </div>
     </div>
-  );
-};
+  </div>
+);
 
 export const Team = (props) => {
-  const [isLoading, setIsLoading] = useState(true);
-  const [loadedImages, setLoadedImages] = useState(0);
-
   const positionPriority = [
     "President",
     "Vice President",
@@ -66,99 +63,69 @@ export const Team = (props) => {
     "Membership Chair",
   ];
 
-  const teamData = useMemo(
-    () => (Array.isArray(props.data) ? props.data : []),
-    [props.data]
-  );
-
   const { presidentsAndVicePresidents, restOfTheTeam } = useMemo(() => {
-    const presidentsAndVicePresidents = teamData.filter((d) =>
-      ["President", "Vice President"].some((job) => d.job.includes(job))
+    const data = Array.isArray(props.data) ? props.data : [];
+    
+    const presidentsAndVPs = data.filter(d => 
+      d.job.includes("President") || d.job.includes("Vice President")
     );
 
-    const restOfTheTeam = teamData.filter(
-      (d) => !["President", "Vice President"].some((job) => d.job.includes(job))
+    const others = data.filter(d => 
+      !d.job.includes("President") && !d.job.includes("Vice President")
     );
 
-    const sortedRestOfTheTeam = [...restOfTheTeam].sort((a, b) => {
-      const aIndex = positionPriority.findIndex((pos) => a.job.includes(pos));
-      const bIndex = positionPriority.findIndex((pos) => b.job.includes(pos));
-
-      if (aIndex !== -1 && bIndex !== -1) {
-        return aIndex - bIndex;
-      }
-
+    const sortedOthers = [...others].sort((a, b) => {
+      const aIndex = positionPriority.findIndex(pos => a.job.includes(pos));
+      const bIndex = positionPriority.findIndex(pos => b.job.includes(pos));
+      
+      if (aIndex !== -1 && bIndex !== -1) return aIndex - bIndex;
       if (aIndex !== -1) return -1;
       if (bIndex !== -1) return 1;
-
       return 0;
     });
 
     return {
-      presidentsAndVicePresidents,
-      restOfTheTeam: sortedRestOfTheTeam,
+      presidentsAndVicePresidents: presidentsAndVPs,
+      restOfTheTeam: sortedOthers
     };
-  }, [teamData, positionPriority]);
-
-  useEffect(() => {
-    if (loadedImages === teamData.length) {
-      setIsLoading(false);
-    }
-  }, [loadedImages, teamData.length]);
-
-  const handleImageLoad = () => {
-    setLoadedImages(prev => prev + 1);
-  };
+  }, [props.data]);
 
   return (
-    <div id="team" className="text-center">
-      <div className="container">
-        <h2>Meet the Team</h2>
-        <p>
-          Our team is a diverse group of individuals with different backgrounds,
-          skills, and expertise. We share a common goal of working together to
-          achieve our objectives and deliver results that exceed expectations.
-        </p>
-      </div>
-      
-      <div className="home-container">
-        <div className="first-row">
-          {presidentsAndVicePresidents.map((d, i) => (
-            <ProfileCard
-              key={`${d.name}-${i}`}
-              data={d}
-              className={i === 0 ? "first-row-left" : "first-row-right"}
-            />
-          ))}
+    <>
+      <div id="team" className="text-center">
+        <div className="container">
+          <h2>Meet the Team</h2>
+          <p>
+            Our team is a diverse group of individuals working together to achieve our objectives.
+          </p>
         </div>
+        
+        <div className="home-container">
+          <div className="first-row">
+            {presidentsAndVicePresidents.map((d, i) => (
+              <ProfileCard
+                key={`${d.name}-${i}`}
+                data={d}
+                className={i === 0 ? "first-row-left" : "first-row-right"}
+              />
+            ))}
+          </div>
 
-        {restOfTheTeam.length > 0 ? (
           <div className="team-grid">
             {restOfTheTeam.map((d, i) => (
               <ProfileCard
                 key={`${d.name}-${i}`}
                 data={d}
-                onImageLoad={handleImageLoad}
               />
             ))}
           </div>
-        ) : (
-          <div className="loading-grid">
-            {[1, 2, 3].map((n) => (
-              <div key={n} className="profile-card loading">
-                <div className="img">
-                  <div className="skeleton-image"></div>
-                </div>
-                <div className="caption">
-                  <div className="skeleton-text"></div>
-                  <div className="skeleton-text short"></div>
-                </div>
-              </div>
-            ))}
-          </div>
-        )}
+        </div>
       </div>
-    </div>
+
+      <style jsx>{`
+        
+      `}</style>
+    </>
   );
 };
 

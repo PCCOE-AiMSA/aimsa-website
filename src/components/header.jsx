@@ -3,12 +3,9 @@ import React from "react";
 export const Header = () => {
   const slides = [
     { id: 1, src: "img/intro-bg.jpg", alt: "intro1" },
-    { id: 2, src: "img/intro-bg.jpg", alt: "intro2" },
-    { id: 3, src: "img/intro-bg.jpg", alt: "intro3" },
-    { id: 4, src: "img/intro-bg.jpg", alt: "intro4" },
-    { id: 5, src: "img/intro-bg.jpg", alt: "intro5" },
-    { id: 6, src: "img/intro-bg.jpg", alt: "intro6" },
-    { id: 7, src: "img/intro-bg.jpg", alt: "intro7" },
+    { id: 2, src: "img/team-2.jpg", alt: "intro2" },
+    { id: 3, src: "img/teachers_day.jpeg", alt: "intro3" },
+   
   ];
 
   return (

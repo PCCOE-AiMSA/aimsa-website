@@ -1,4 +1,4 @@
-import React, { useMemo, useState } from "react";
+import React, {useState } from "react";
 
 const ProfileImage = ({ src, alt }) => {
   const [hasError, setHasError] = useState(false);

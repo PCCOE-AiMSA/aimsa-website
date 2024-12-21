@@ -14,7 +14,6 @@
       "Lorem ipsum dolor"
     ]
   },
-
   "Gallery": [
     {
       "title": "Adrenaline Rush",
@@ -66,9 +65,7 @@
       "largeImage": "img/gallery/teachers_day.jpeg",
       "smallImage": "img/gallery/teachers_day.jpeg"
     }
-
   ],
-
 "Team": [
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/c_scale,w_300,q_auto,f_webp/v1734611485/kp_dagxjg.webp",
@@ -278,184 +275,184 @@
       "linkedin": "??",
       "github": "??"
     }
-]
-,
+  ],
+
 
   "JuniorExecutive": [
     {
-        "img": "#",
-        "name": "Digvijay Bhadgale",
-        "linkedin": "https://www.linkedin.com/in/digvijay-bhadgale-bb3b38292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "instagram": "https://www.instagram.com/digvijay_bhadgale/profilecard/?igsh=MXNhenplMHZobzltOA==",
-        "github": "https://github.com/digvijay1283"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734776519/VINAYS_1_aylow6.png",
+      "name": "Vinay Sawant",
+      "linkedin": "linkedin.com/in/vinay-sawant-b19486259",
+      "instagram": "https://www.instagram.com/vinays.18/profilecard/?igsh=MTVqOHB3ZWdsbHJjMA==",
+      "github": "#"
     },
     {
-        "img": "#",
-        "name": "Atharav Pawar ",
-        "linkedin": "https://www.linkedin.com/in/atharav-pawar-98782b251",
-        "instagram": "https://www.instagram.com/_athpawar_?igsh=MTgyYnh0cGVyejNqbQ==",
-        "github": "https://github.com/atharavpawar2004"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734777584/atharv_ntrpza.png",
+      "name": "Atharav Pawar ",
+      "linkedin": "https://www.linkedin.com/in/atharav-pawar-98782b251",
+      "instagram": "https://www.instagram.com/_athpawar_?igsh=MTgyYnh0cGVyejNqbQ==",
+      "github": "https://github.com/atharavpawar2004"
     },
     {
-        "img": "#",
-        "name": "Kosada Bhat ",
-        "linkedin": "https://www.linkedin.com/in/kosada-bhat-9a72a8277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "instagram": "https://www.instagram.com/kayyyy__28",
-        "github": "https://github.com/Kosadabhat"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734777412/Gaurav_nectan.png",
+      "name": "Gaurav Tarate",
+      "linkedin": "www.linkedin.com/in/gaurav-tarate",
+      "instagram": "https://www.instagram.com/g_aura_v.35?igsh=aWRsYW9qaWN4ZHNy",
+      "github": "https://github.com/Gaurav3251"
     },
     {
-        "img": "#",
-        "name": "Mitali Milind Sonkamble",
-        "linkedin": "https://www.linkedin.com/in/mitali-sonkamble-9ba870283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "instagram": "https://www.instagram.com/mitali.sonkamble/profilecard/?igsh=MTVtZDBpMjI1Mzc3ZQ==",
-        "github": "#"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734778174/prithvi_x5qcfu.png",
+      "name": "Prithviraj more ",
+      "linkedin": "https://www.linkedin.com/in/prithviraj44/",
+      "instagram": "https://www.instagram.com/prithxvhie.44/",
+      "github": "https://github.com/Prithxvhie44"
     },
     {
-        "img": "#",
-        "name": "Parth Abasaheb Kathane ",
-        "linkedin": "https://www.linkedin.com/in/parth-kathane-3024882a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "instagram": "https://www.instagram.com/_parth_kathane_/profilecard/?igsh=MW5zcG5sanhjNWZ1cA==",
-        "github": "https://github.com/Parth-K-15"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734778664/om_desh_wypnho.png",
+      "name": "Om Deshmukh",
+      "linkedin": "www.linkedin.com/in/om-deshmukh-928a282a6",
+      "instagram": "https://www.instagram.com/omdeshmukh.h/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Finbox%2F%3F__coig_login%3D1",
+      "github": "https://github.com/OM-DESHMUKH12"
     },
     {
-        "img": "#",
-        "name": "Adinna Thaware",
-        "linkedin": "https://www.linkedin.com/in/adinna-thaware-672116211",
-        "instagram": "https://www.instagram.com/adinnathaware/profilecard/?igsh=MXBjZXd4YjJyeXZ4Nw==",
-        "github": "https://github.com/Adinnathaware/Adinna"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734778554/Mitali_pqe5n7.png",
+      "name": "Mitali Sonkamble",
+      "linkedin": "https://www.linkedin.com/in/mitali-sonkamble-9ba870283?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "instagram": "https://www.instagram.com/mitali.sonkamble/profilecard/?igsh=MTVtZDBpMjI1Mzc3ZQ==",
+      "github": "#"
     },
     {
-        "img": "#",
-        "name": "Harsh Mulimani ",
-        "linkedin": "https://www.linkedin.com/in/harsh-mulimani-101996342/",
-        "instagram": "https://www.instagram.com/harsh.mulimani/",
-        "github": "#"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734778495/vinayak_gbywit.png",
+      "name": "VINAYAK PAWARA",
+      "linkedin": "https://www.linkedin.com/in/vinayak-pawara-362580289/",
+      "instagram": "https://www.instagram.com/vinayakpawara9?igsh=bmVqOHBpem1lcnRy&utm_source=qr",
+      "github": "https://github.com/WhitePanda9"
     },
     {
-        "img": "#",
-        "name": "Diksha Bhosale ",
-        "linkedin": "www.linkedin.com/in/diksha-bhosale",
-        "instagram": "https://www.instagram.com/diku_18305?igsh=d2pkNjJzanRjdTk=",
-        "github": "https://github.com/diksha2345"
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734778939/Giriwar_aue7pe.png",
+      "name": "Om Shrigiriwar",
+      "linkedin": "https://www.linkedin.com/in/om-shrigiriwar-56b40128a",
+      "instagram": "https://www.instagram.com/og_om_05/",
+      "github": "https://github.com/Om8624870806/Codework.git"
     },
     {
-        "img": "#",
-        "name": "Ananya Rajankar ",
-        "linkedin": "https://www.linkedin.com/in/ananya-rajankar-10a938264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "instagram": "https://www.instagram.com/an.anya_rajankar?igsh=ODRjeW1kdjZiZTdu&utm_source=qr",
-        "github": "https://github.com/Rajankarananya"
+      "img": "#",
+      "name": "Parth Kathane ",
+      "linkedin": "https://www.linkedin.com/in/parth-kathane-3024882a8?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "instagram": "https://www.instagram.com/_parth_kathane_/profilecard/?igsh=MW5zcG5sanhjNWZ1cA==",
+      "github": "https://github.com/Parth-K-15"
     },
     {
-        "img": "#",
-        "name": "Vinay Sawant",
-        "linkedin": "linkedin.com/in/vinay-sawant-b19486259",
-        "instagram": "https://www.instagram.com/vinays.18/profilecard/?igsh=MTVqOHB3ZWdsbHJjMA==",
-        "github": "#"
+      "img": "#",
+      "name": "Digvijay Bhadgale",
+      "linkedin": "https://www.linkedin.com/in/digvijay-bhadgale-bb3b38292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "instagram": "https://www.instagram.com/digvijay_bhadgale/profilecard/?igsh=MXNhenplMHZobzltOA==",
+      "github": "https://github.com/digvijay1283"
     },
     {
-        "img": "#",
-        "name": "Prithviraj more ",
-        "linkedin": "https://www.linkedin.com/in/prithviraj44/",
-        "instagram": "https://www.instagram.com/prithxvhie.44/",
-        "github": "https://github.com/Prithxvhie44"
+      "img": "#",
+      "name": "Kosada Bhat ",
+      "linkedin": "https://www.linkedin.com/in/kosada-bhat-9a72a8277?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "instagram": "https://www.instagram.com/kayyyy__28",
+      "github": "https://github.com/Kosadabhat"
     },
     {
-        "img": "#",
-        "name": "Shruti Jaggi ",
-        "linkedin": "https://www.linkedin.com/in/shruti-jaggi-946b652a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
-        "instagram": "https://www.instagram.com/shrutijaggi24/profilecard/?igsh=MXdsODRsNDk4N2xoYw==",
-        "github": "https://github.com/Shruti1724"
+      "img": "#",
+      "name": "Adinna Thaware",
+      "linkedin": "https://www.linkedin.com/in/adinna-thaware-672116211",
+      "instagram": "https://www.instagram.com/adinnathaware/profilecard/?igsh=MXBjZXd4YjJyeXZ4Nw==",
+      "github": "https://github.com/Adinnathaware/Adinna"
     },
     {
-        "img": "#",
-        "name": "Om Deshmukh",
-        "linkedin": "www.linkedin.com/in/om-deshmukh-928a282a6",
-        "instagram": "https://www.instagram.com/omdeshmukh.h/?next=https%3A%2F%2Fwww.instagram.com%2Fdirect%2Finbox%2F%3F__coig_login%3D1",
-        "github": "https://github.com/OM-DESHMUKH12"
+      "img": "#",
+      "name": "Harsh Mulimani ",
+      "linkedin": "https://www.linkedin.com/in/harsh-mulimani-101996342/",
+      "instagram": "https://www.instagram.com/harsh.mulimani/",
+      "github": "#"
     },
     {
-        "img": "#",
-        "name": "Vaidavi Naik",
-        "linkedin": "www.linkedin.com/in/vaidavi-naik-23b922327",
-        "instagram": "https://www.instagram.com/vaidavi_1212/profilecard/?igsh=eHB4aDJlMHZ0Y3lu",
-        "github": "http://github.com/VaidaviNaik"
+      "img": "#",
+      "name": "Diksha Bhosale ",
+      "linkedin": "www.linkedin.com/in/diksha-bhosale",
+      "instagram": "https://www.instagram.com/diku_18305?igsh=d2pkNjJzanRjdTk=",
+      "github": "https://github.com/diksha2345"
     },
     {
-        "img": "#",
-        "name": "Prasad Rajendra Pawar ",
-        "linkedin": "https://www.linkedin.com/in/prasadpawar21/",
-        "instagram": "https://www.instagram.com/prasadpawar566/",
-        "github": "https://github.com/Prasadpawar21"
+      "img": "#",
+      "name": "Ananya Rajankar ",
+      "linkedin": "https://www.linkedin.com/in/ananya-rajankar-10a938264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "instagram": "https://www.instagram.com/an.anya_rajankar?igsh=ODRjeW1kdjZiZTdu&utm_source=qr",
+      "github": "https://github.com/Rajankarananya"
     },
     {
-        "img": "#",
-        "name": "VINAYAK PRABHAKAR PAWARA",
-        "linkedin": "https://www.linkedin.com/in/vinayak-pawara-362580289/",
-        "instagram": "https://www.instagram.com/vinayakpawara9?igsh=bmVqOHBpem1lcnRy&utm_source=qr",
-        "github": "https://github.com/WhitePanda9"
+      "img": "#",
+      "name": "Shruti Jaggi ",
+      "linkedin": "https://www.linkedin.com/in/shruti-jaggi-946b652a7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      "instagram": "https://www.instagram.com/shrutijaggi24/profilecard/?igsh=MXdsODRsNDk4N2xoYw==",
+      "github": "https://github.com/Shruti1724"
     },
     {
-        "img": "#",
-        "name": "Om Shrigiriwar",
-        "linkedin": "https://www.linkedin.com/in/om-shrigiriwar-56b40128a",
-        "instagram": "https://www.instagram.com/og_om_05/",
-        "github": "https://github.com/Om8624870806/Codework.git"
+      "img": "#",
+      "name": "Vaidavi Naik",
+      "linkedin": "www.linkedin.com/in/vaidavi-naik-23b922327",
+      "instagram": "https://www.instagram.com/vaidavi_1212/profilecard/?igsh=eHB4aDJlMHZ0Y3lu",
+      "github": "http://github.com/VaidaviNaik"
     },
     {
-        "img": "#",
-        "name": "Piyush Shrikant Patil",
-        "linkedin": "www.linkedin.com/in/piyush-s-patil",
-        "instagram": "https://www.instagram.com/piyush_sp04/",
-        "github": "https://github.com/PiyushSPatil"
+      "img": "#",
+      "name": "Prasad Pawar ",
+      "linkedin": "https://www.linkedin.com/in/prasadpawar21/",
+      "instagram": "https://www.instagram.com/prasadpawar566/",
+      "github": "https://github.com/Prasadpawar21"
     },
     {
-        "img": "#",
-        "name": "Gaurav Tarate",
-        "linkedin": "www.linkedin.com/in/gaurav-tarate",
-        "instagram": "https://www.instagram.com/g_aura_v.35?igsh=aWRsYW9qaWN4ZHNy",
-        "github": "https://github.com/Gaurav3251"
+      "img": "#",
+      "name": "Piyush Patil",
+      "linkedin": "www.linkedin.com/in/piyush-s-patil",
+      "instagram": "https://www.instagram.com/piyush_sp04/",
+      "github": "https://github.com/PiyushSPatil"
     },
     {
-        "img": "#",
-        "name": "Harshal Raut",
-        "linkedin": "www.linkedin.com/in/rautharshal",
-        "instagram": "https://www.instagram.com/happsome/",
-        "github": "https://github.com/fereses"
+      "img": "#",
+      "name": "Harshal Raut",
+      "linkedin": "www.linkedin.com/in/rautharshal",
+      "instagram": "https://www.instagram.com/happsome/",
+      "github": "https://github.com/fereses"
     },
     {
-        "img": "#",
-        "name": "Om Pangaonkar ",
-        "linkedin": "https://www.linkedin.com/in/om-pangaonkar-b97a0430a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-        "instagram": "https://www.instagram.com/_ommm.05_/",
-        "github": "#"
+      "img": "#",
+      "name": "Om Pangaonkar ",
+      "linkedin": "https://www.linkedin.com/in/om-pangaonkar-b97a0430a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      "instagram": "https://www.instagram.com/_ommm.05_/",
+      "github": "#"
     },
     {
-        "img": "#",
-        "name": "Siddhika Pujari",
-        "linkedin": "https://www.linkedin.com/in/siddhika-pujari-2b40a9296",
-        "instagram": "#",
-        "github": "https://github.com/siddhika9499"
+      "img": "#",
+      "name": "Siddhika Pujari",
+      "linkedin": "https://www.linkedin.com/in/siddhika-pujari-2b40a9296",
+      "instagram": "#",
+      "github": "https://github.com/siddhika9499"
     },
     {
-        "img": "#",
-        "name": "Abhishek Nikam",
-        "linkedin": "https://www.linkedin.com/in/abhishek-nikam-88372128b/",
-        "instagram": "https://www.instagram.com/_abhi_2752/",
-        "github": "https://github.com/AbhiXO7"
+      "img": "#",
+      "name": "Abhishek Nikam",
+      "linkedin": "https://www.linkedin.com/in/abhishek-nikam-88372128b/",
+      "instagram": "https://www.instagram.com/_abhi_2752/",
+      "github": "https://github.com/AbhiXO7"
     },
     {
-        "img": "#",
-        "name": "Trupti Sukale",
-        "linkedin": "https://www.linkedin.com/in/trupti-sukale-6a90882b1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYzKt7l8JRm200GCItlEUyg%3D%3D",
-        "instagram": "https://www.instagram.com/trupti_1627/",
-        "github": "#"
+      "img": "#",
+      "name": "Trupti Sukale",
+      "linkedin": "https://www.linkedin.com/in/trupti-sukale-6a90882b1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BYzKt7l8JRm200GCItlEUyg%3D%3D",
+      "instagram": "https://www.instagram.com/trupti_1627/",
+      "github": "#"
     },
     {
-        "img": "#",
-        "name": "Ketan Agrawal",
-        "linkedin": "https://www.linkedin.com/in/ketan-agrawal-832b28252/",
-        "instagram": "https://www.instagram.com/ketanagrawal286/",
-        "github": "https://github.com/KetanAgrawal11/"
+      "img": "#",
+      "name": "Ketan Agrawal",
+      "linkedin": "https://www.linkedin.com/in/ketan-agrawal-832b28252/",
+      "instagram": "https://www.instagram.com/ketanagrawal286/",
+      "github": "https://github.com/KetanAgrawal11/"
     },
     {
       "img": "#",
@@ -463,44 +460,43 @@
       "linkedin": "www.linkedin.com/in/shruti-mahadik-642555292",
       "instagram": "#",
       "github": "https://github.com/Shrutim47"
-  },
-  {
+    },
+    {
       "img": "#",
       "name": "Diya Kote ",
       "linkedin": "https://www.linkedin.com/in/diya-kote-412331289?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "instagram": "https://www.instagram.com/_.diya_14/profilecard/?igsh=MXV3bHg4cmlhODNlNA==",
       "github": "https://github.com/diya1411"
-  },
-  {
+    },
+    {
       "img": "#",
-      "name": "Tejas ",
+      "name": "Tejas Shidam",
       "linkedin": "https://www.linkedin.com/in/tejas-shidam-522252311?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "instagram": "https://www.instagram.com/tejas.sidam?igsh=Nm5kOHR5emEwNTdv",
       "github": "-"
-  },
-  {
+    },
+    {
       "img": "#",
       "name": "Shreyas Bile",
       "linkedin": "https://www.linkedin.com/in/shreyas-bile-5b53aa2a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "instagram": "https://www.instagram.com/shreyas_bile/profilecard/?igsh=a3dyajduN3hvb3Aw",
       "github": "."
-  },
-  {
+    },
+    {
       "img": "#",
       "name": "Ruturaj Pandharkar",
       "linkedin": "www.linkedin.com/in/ruturaj-pandharkar-265a6228b",
       "instagram": "https://www.instagram.com/officialrutu1237/profilecard/?igsh=MXZ2Mmo4MHN6YWVmdQ== ",
       "github": "https://github.com/Ruturaj2005"
-  },
-  {
+    },
+    {
       "img": "#",
       "name": "Piyush Daspute ",
       "linkedin": "#",
       "instagram": "#",
       "github": "#"
-  }
-],
-
+    }
+  ],
   "Contact": {
     "address": "Pimpri Chinchwad College of Engineering Akurdi Pune  ",
     "email": "pccoeaimsa2022@gmail.com",
@@ -508,7 +504,6 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
-
   "Features": [
     {
       "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HOD_sy06kw.png",

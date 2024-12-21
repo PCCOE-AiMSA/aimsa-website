@@ -57,7 +57,14 @@ export const Navigation = () => {
                 <strong>TEAM</strong>
               </button>
             </li>
-           
+            <li>
+              <button
+                onClick={() => navigate("/jr")}
+                className="nav-item-link"
+              >
+                <strong>Junior Team</strong>
+              </button>
+            </li>
             <li>
               <button
                 onClick={() => handleNavigation("contact")}

@@ -7,6 +7,7 @@ import { About } from "./components/about";
 import { Gallery } from "./components/gallery";
 import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
+import JuniorExecutives from "./components/JuniorExecutives";
 import JsonData from "./data/data.json";
 
 const Home = ({ landingPageData }) => {
@@ -57,7 +58,12 @@ const App = () => {
             path="/gallery"
             element={<Gallery data={landingPageData.Gallery || []} />}
           />
+          <Route
+            path="/jr"
+            element={<JuniorExecutives data={landingPageData.JuniorExecutives || []} />}
+          />
         </Routes>
+
       </div>
     </Router>
   );

@@ -35,6 +35,7 @@ The AIMSA website is designed and developed by the following talented members of
 4. **Harshal Mali**
 5. **Atharva Kamtalvar**
 6. **Prithviraj More**
+7. **Ketan Agarwal**
 
 ---
 

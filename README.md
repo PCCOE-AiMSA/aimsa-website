@@ -31,7 +31,7 @@ The website is built using:
 The AIMSA website is designed and developed by the following talented members of AIMSA's Technical Team:
 1. **Omkar Khoche**
 2. **Anushka Patil**
-3. **Rutuja Dhongade**
+3. **Rutuj Dhongade**
 4. **Harshal Mali**
 5. **Atharva Kamtalvar**
 6. **Prithviraj More**

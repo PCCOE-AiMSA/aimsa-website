@@ -1,31 +1,31 @@
-
 import React, { useState, useEffect } from "react";
 
+// images la path dya fkt
 const slides = [
   {
     id: 1,
-    src: "/img/intro-bg.jpg",
+    src: "",
     alt: "Intro 1",
     title: "Welcome To AiMSA",
     subtitle: "Innovating the Future of AI",
   },
   {
     id: 2,
-    src: "/img/team-2.jpg",
+    src: "",
     alt: "Team",
     title: "Our Talented Team",
     subtitle: "Driving Technology Forward",
   },
   {
     id: 3,
-    src: "/img/teachers_day.jpeg",
+    src: "",
     alt: "Teachers",
     title: "Empowering Education",
     subtitle: "AI in Learning",
   },
 ];
 
-export const Header: React.FC = () => {
+export const Header = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
   useEffect(() => {
@@ -65,3 +65,5 @@ export const Header: React.FC = () => {
     </div>
   );
 };
+
+export default Header;

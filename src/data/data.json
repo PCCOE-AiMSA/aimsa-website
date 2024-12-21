@@ -69,35 +69,34 @@
 
   ],
 
-  "Team": [
+"Team": [
     {
-      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/kp_dagxjg.webp",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/c_scale,w_300,q_auto,f_webp/v1734611485/kp_dagxjg.webp",
       "name": "Khelesh Patil",
       "job": "President",
       "instagram": "https://www.instagram.com/sunny_the.kp/profilecard/?igsh=amxpNTNrdGEyZTM5",
       "linkedin": "https://www.linkedin.com/in/khelesh-patil",
       "github": "#"
     },
-    
     {
-      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/ST_rf1s2n.webp",
-      "name": "Saniya Thigale ",
-      "job": "Vice President ",
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/c_scale,w_300,q_auto,f_webp/v1734611488/ST_rf1s2n.webp",
+      "name": "Saniya Thigale",
+      "job": "Vice President",
       "instagram": "https://www.instagram.com/__saniya16__/profilecard/?igsh=MzRldHRhMXp5cm05",
       "linkedin": "https://www.linkedin.com/in/saniya-thigale-a8ba49259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HARSHAL-modified_a5hanl.webp",
-      "name": "Harshal Mali ",
-      "job": "Technical Head ",
+      "name": "Harshal Mali",
+      "job": "Technical Head",
       "linkedin": "https://www.linkedin.com/in/harshal-mali-87800729a/",
       "instagram": "https://www.instagram.com/harshal_.45/",
       "github": "https://github.com/HARSHGit45"
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611484/ATHARVA-modified_l94lhu.webp",
-      "name": "Atharva Kamtalwar ",
+      "name": "Atharva Kamtalwar",
       "job": "Technical Head",
       "instagram": "https://www.instagram.com/atharva.ipynb",
       "linkedin": "https://www.linkedin.com/in/atharva-kamtalwar",
@@ -113,8 +112,8 @@
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SUPRIYA-modified_iedg2p.webp",
-      "name": "Supriya Baride ",
-      "job": "Social Media Head ",
+      "name": "Supriya Baride",
+      "job": "Social Media Head",
       "instagram": "https://www.instagram.com/supriya_b28/profilecard/?igsh=OHM0d21odHkxNmhl",
       "linkedin": "https://www.linkedin.com/in/supriya-baride-a2485927a",
       "github": "#"
@@ -135,9 +134,15 @@
       "linkedin": "https://www.linkedin.com/in/namish-arora-55981a259/",
       "github": "#"
     },
-
-   
-     {
+    {
+      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611489/SUSHANT-modified_rqtpyk.webp",
+      "name": "Sushant Kabra",
+      "job": "Marketing Head",
+      "instagram": "https://www.instagram.com/sushantkabra_33",
+      "linkedin": "https://www.linkedin.com/in/sushant-kabra-657483259",
+      "github": "#"
+    },
+    {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SIDDHESH-modified_qx6gkl.webp",
       "name": "Siddesh Pohare",
       "job": "Marketing Head",
@@ -145,7 +150,6 @@
       "linkedin": "??",
       "github": "??"
     },
-
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/PRANAV-modified_q1pd4j.webp",
       "name": "Pranav Jagtap",
@@ -154,36 +158,30 @@
       "linkedin": "??",
       "github": "??"
     },
-
-
-
-
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/PRATHAM-modified_yhpkzz.webp",
-      "name": "Pratham Mali ",
-      "job": "Event Head ",
+      "name": "Pratham Mali",
+      "job": "Event Head",
       "instagram": "https://www.instagram.com/pratham_01_mali/profilecard/?igsh=ZmJrcWhnMWs0bjkw",
       "linkedin": "https://www.linkedin.com/in/pratham-mali-716907295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/SAGAR-modified_efxooo.webp",
-      "name": "Sagar Karatagi ",
-      "job": "Event Head ",
+      "name": "Sagar Karatagi",
+      "job": "Event Head",
       "linkedin": "https://www.linkedin.com/in/sagar-karatagi-28a485259/",
       "instagram": "/",
       "github": "/"
     },
-
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611483/ANUSHKA-modified_akvqql.webp",
       "name": "Anushka Patil",
-      "job": "Technical Head ",
+      "job": "Technical Head",
       "instagram": "https://www.instagram.com/anushka_patil27/profilecard/?igsh=MTVnM2o0ZGY2dXdraw==",
       "linkedin": "https://www.linkedin.com/in/anushka-patil27",
       "github": "#"
     },
-
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611487/RUTUJ-modified_i72jc6.webp",
       "name": "Rutuj Dhongade",
@@ -194,7 +192,7 @@
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611490/TEJASHREE-modified_sexlou.webp",
-      "name": "Tejashree Chougule ",
+      "name": "Tejashree Chougule",
       "job": "Design Head",
       "instagram": "https://www.instagram.com/teja_shrii_?igsh=MXVkeW5oMnZidjV5dg==",
       "linkedin": "http://www.linkedin.com/in/tejashree-chougule-b955a8257",
@@ -203,7 +201,7 @@
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611488/SOHAM-modified_t6mrlv.webp",
       "name": "Soham Mhatre",
-      "job": "Secretary ",
+      "job": "Secretary",
       "instagram": "https://www.instagram.com/infinite_dreamer_09/",
       "linkedin": "https://www.linkedin.com/in/mhatresoham",
       "github": "#"
@@ -211,17 +209,9 @@
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/FELINA-modified_igzkhw.webp",
       "name": "Felina Mathews",
-      "job": "Secretary ",
+      "job": "Secretary",
       "instagram": "https://www.instagram.com/infinite_dreamer_09/",
       "linkedin": "https://www.linkedin.com/in/mhatresoham",
-      "github": "#"
-    },
-    {
-      "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611489/SUSHANT-modified_rqtpyk.webp",
-      "name": "Sushant Kabra",
-      "job": "Marketing Head",
-      "instagram": "https://www.instagram.com/sushantkabra_33",
-      "linkedin": "https://www.linkedin.com/in/sushant-kabra-657483259",
       "github": "#"
     },
     {
@@ -234,7 +224,7 @@
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/NISHKA-modified_pvtada.webp",
-      "name": "Nishka Salunkhe ",
+      "name": "Nishka Salunkhe",
       "job": "Membership Chair",
       "instagram": "#",
       "linkedin": "#",
@@ -250,17 +240,16 @@
     },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611489/SWETANK-modified_arqkke.webp",
-      "name": "Swetank  Raut",
-      "job": "Social Media & Photography Head ",
+      "name": "Swetank Raut",
+      "job": "Social Media & Photography Head",
       "instagram": "https://www.instagram.com/swetank_rog619/profilecard/?igsh=cGlmeGFuYmE2ZGpz",
       "linkedin": "https://www.linkedin.com/in/swetank-raut-97b2651b7?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
     },
-    
     {
       "img": "#",
-      "name": "Omkar Khoche ",
-      "job": "Associate Technical Head ",
+      "name": "Omkar Khoche",
+      "job": "Associate Technical Head",
       "instagram": "https://www.instagram.com/omkar_khoche/",
       "linkedin": "https://www.linkedin.com/in/omkar-khoche-964a86259",
       "github": "#"
@@ -280,8 +269,7 @@
       "instagram": "https://www.instagram.com/tejazzz_/profilecard/?igsh=c2NpMnkwNGx1cjdt",
       "linkedin": "https://www.linkedin.com/in/tejas-ubale-b41503253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "github": "#"
-    }
-    ,
+    },
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611486/PARTH-modified_1_xfz9fv.webp",
       "name": "Parth Chitale",
@@ -290,7 +278,8 @@
       "linkedin": "??",
       "github": "??"
     }
-  ],
+]
+,
 
   "JuniorExecutive": [
     {

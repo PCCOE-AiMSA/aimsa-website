@@ -59,7 +59,7 @@ const App = () => {
             element={<Gallery data={landingPageData.Gallery || []} />}
           />
           <Route
-            path="/jr"
+            path="/junior-executives"
             element={<JuniorExecutives data={landingPageData.JuniorExecutives || []} />}
           />
         </Routes>

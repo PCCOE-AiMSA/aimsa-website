@@ -59,7 +59,7 @@ export const Navigation = () => {
             </li>
             <li>
               <button
-                onClick={() => navigate("/jr")}
+                onClick={() => navigate("/junior-executives")}
                 className="nav-item-link"
               >
                 <strong>Junior Team</strong>

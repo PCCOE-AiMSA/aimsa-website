@@ -343,7 +343,7 @@
       "github": "https://github.com/Parth-K-15"
     },
     {
-      "img": "#",
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734881159/DIGVIJ_2-modified_yo164v.png",
       "name": "Digvijay Bhadgale",
       "linkedin": "https://www.linkedin.com/in/digvijay-bhadgale-bb3b38292?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       "instagram": "https://www.instagram.com/digvijay_bhadgale/profilecard/?igsh=MXNhenplMHZobzltOA==",
@@ -364,14 +364,14 @@
       "github": "https://github.com/Adinnathaware/Adinna"
     },
     {
-      "img": "#",
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734880581/Harsh1_d7bcrs.jpg",
       "name": "Harsh Mulimani ",
       "linkedin": "https://www.linkedin.com/in/harsh-mulimani-101996342/",
       "instagram": "https://www.instagram.com/harsh.mulimani/",
       "github": "#"
     },
     {
-      "img": "#",
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734881005/DIKSHA_1-modified_hos1cb.png",
       "name": "Diksha Bhosale ",
       "linkedin": "www.linkedin.com/in/diksha-bhosale",
       "instagram": "https://www.instagram.com/diku_18305?igsh=d2pkNjJzanRjdTk=",
@@ -406,7 +406,7 @@
       "github": "https://github.com/Prasadpawar21"
     },
     {
-      "img": "#",
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734881559/Piyush_S_Patil_Photo_-_PIYUSH_PATIL-modified_d4xqcy.png",
       "name": "Piyush Patil",
       "linkedin": "www.linkedin.com/in/piyush-s-patil",
       "instagram": "https://www.instagram.com/piyush_sp04/",
@@ -427,7 +427,7 @@
       "github": "#"
     },
     {
-      "img": "#",
+      "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/v1734881735/IMG_20241222_175632_-_SIDDHIKA_PUJARI-modified_t9ckvo.png",
       "name": "Siddhika Pujari",
       "linkedin": "https://www.linkedin.com/in/siddhika-pujari-2b40a9296",
       "instagram": "#",
@@ -496,6 +496,7 @@
       "instagram": "#",
       "github": "#"
     }
+  
   ],
   "Contact": {
     "address": "Pimpri Chinchwad College of Engineering Akurdi Pune  ",

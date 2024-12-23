@@ -44,7 +44,7 @@ export const About = () => {
           <div className="about-image">
             <div className="about-image-container">
               <img
-                src="img/intro-bg.jpg"
+                src="https://res.cloudinary.com/dgfxygdz7/image/upload/v1734956841/intro-bg_iupdej.jpg"
                 alt="About AiMSA"
                 className="abt-img"
               />

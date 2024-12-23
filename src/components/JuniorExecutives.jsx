@@ -1,4 +1,4 @@
-import React, {useState } from "react";
+import React, {useState ,useEffect} from "react";
 
 const ProfileImage = ({ src, alt }) => {
   const [hasError, setHasError] = useState(false);
@@ -52,9 +52,11 @@ const ProfileCard = ({ data }) => {
 };
 
 const JuniorExecutives = ({ data }) => {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, []);
   return (
     <div className="jr-home-container home-container">
-      {/* Heading for Junior Executives Section */}
       <h2 className="section-heading">Junior Executives</h2>
       <div className="team-grid">
         {data.map((member, index) => (

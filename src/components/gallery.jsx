@@ -13,7 +13,7 @@ export const Gallery = (props) => {
         <div className="section-title">
           <h2>Gallery</h2>
           <p>
-            Have a Site at Our Gallery.
+            Team AiMSA at your glance.
           </p>
         </div>
         <div className="row">

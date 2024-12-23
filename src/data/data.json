@@ -16,55 +16,91 @@
   },
   "Gallery": [
     {
-      "title": "Adrenaline Rush",
-      "largeImage": "img/gallery/Adrenaline.jpeg",
-      "smallImage": "img/gallery/Adrenaline.jpeg"
+      "title": "FixFrenzy '24",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962884/Copy_of_IMG_1537_qnxt9q.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962884/Copy_of_IMG_1537_qnxt9q.jpg"
+
+    },
+    {
+      "title": "Mindshot '24",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962885/Copy_of_IMG_1428_pzigys.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962885/Copy_of_IMG_1428_pzigys.jpg"
+
+    },
+    {
+      "title": "Engineering Day'24",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962884/Copy_of_IMG_1843_dr3rll.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962884/Copy_of_IMG_1843_dr3rll.jpg"
+
+    },
+
+
+
+
+
+    {
+      "title": "Adrenaline Rush'22",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962907/Adrenaline_er8drj.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962907/Adrenaline_er8drj.jpg"
     },
     {
       "title": "Among us",
-      "largeImage": "img/gallery/amongus.jpg",
-      "smallImage": "img/gallery/amongus.jpg"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962909/amongus_cj0hmn.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962909/amongus_cj0hmn.jpg"
     },
     {
       "title": "Build your Own Website",
-      "largeImage": "img/gallery/Build Your Own Website.jpeg",
-      "smallImage": "img/gallery/Build Your Own Website.jpeg"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/Build_Your_Own_Website_snobso.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/Build_Your_Own_Website_snobso.jpg"
     },
     {
       "title": "HackMatrix 1.0",
-      "largeImage": "img/gallery/hack.jpeg",
-      "smallImage": "img/gallery/hack.jpeg"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/hack_owo9n5.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/hack_owo9n5.jpg"
     },
     {
       "title": "HackMatrix 2.0",
-      "largeImage": "img/gallery/hack1.webp",
-      "smallImage": "img/gallery/hack1.webp"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962909/hack1_mcqmwi.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962909/hack1_mcqmwi.jpg"
     },
     {
       "title": "Houdini Heist",
-      "largeImage": "img/gallery/houdini_r2.webp",
-      "smallImage": "img/gallery/houdini_r2.webp"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962915/houdini_r2_qa7zfr.png",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962915/houdini_r2_qa7zfr.png"
     },
     {
       "title": "induction",
-      "largeImage": "img/gallery/induction.jpeg",
-      "smallImage": "img/gallery/induction.jpeg"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/induction_c3nr1p.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962908/induction_c3nr1p.jpg"
     },
     {
       "title": "NeuroDrain",
-      "largeImage": "img/gallery/neuro_r1.webp",
-      "smallImage": "img/gallery/neuro_r1.webp"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962920/neuro_r1_xmtate.png",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962920/neuro_r1_xmtate.png"
     },
     {
       "title": "VR Experience",
-      "largeImage": "img/gallery/vr_exp.webp",
-      "smallImage": "img/gallery/vr_exp.webp"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/vr_exp_ctppgt.png",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/vr_exp_ctppgt.png"
     },
     {
       "title": "teachers_Day",
-      "largeImage": "img/gallery/teachers_day.jpeg",
-      "smallImage": "img/gallery/teachers_day.jpeg"
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962910/teachers_day_pmyajc.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962910/teachers_day_pmyajc.jpg"
+    },
+    {
+      "title": "Pixel Perfect",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/pixel_rvvjaz.png",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/pixel_rvvjaz.png"
+
+    },
+    {
+      "title": "Engineering Day'23",
+      "largeImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/winners_presentation_engg_day_ulmody.jpg",
+      "smallImage": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734962911/winners_presentation_engg_day_ulmody.jpg"
+
     }
+    
   ],
 "Team": [
     {

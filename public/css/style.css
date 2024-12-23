@@ -1071,3 +1071,61 @@ label {
     font-size: 1rem;
   }
 }
+
+
+
+
+
+
+
+/* Gallery Container */
+.portfolio-items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem; 
+  justify-content: center;
+}
+
+/* Card Style */
+.portfolio-items .col-sm-6,
+.portfolio-items .col-md-4,
+.portfolio-items .col-lg-4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Card Wrapper */
+.portfolio-items div {
+  background: #f8f8f8;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+  width: 100%;
+  max-width: 300px; 
+  aspect-ratio: 1; 
+  margin: auto;
+}
+
+/* Image Styling */
+.portfolio-items img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 0.5rem 0.5rem 0 0; 
+}
+
+/* Hover Effect */
+.portfolio-items div:hover {
+
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Styling */
+.portfolio-items div h3,
+.portfolio-items div p {
+  margin: 1rem 0;
+}

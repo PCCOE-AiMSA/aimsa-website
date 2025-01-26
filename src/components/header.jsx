@@ -13,7 +13,7 @@ const slides = [
     id: 2,
     src: "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734956841/intro-bg_iupdej.jpg",
     alt: "Team",
-    title: "Our Talented Team",
+    title: "Our Team",
     subtitle: "Driving Technology Forward",
   },
   {
@@ -43,7 +43,11 @@ export const Header = () => {
           <div
             key={slide.id}
             className={`slide ${index === currentSlide ? "active" : ""}`}
-            style={{ backgroundImage: `url(${slide.src})` }}
+            style={{ 
+              backgroundImage: `url(${slide.src})`,
+              backgroundSize: "contain",
+              backgroundRepeat: "no-repeat"
+            }}
           >
             <div className="content">
               <h1>{slide.title}</h1>

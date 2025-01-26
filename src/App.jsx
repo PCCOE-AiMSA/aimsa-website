@@ -64,7 +64,7 @@ const App = () => {
             element={<JuniorExecutives data={landingPageData.JuniorExecutives || []} />}
           />
         </Routes>
-
+    
       </div>
     </Router>
   );

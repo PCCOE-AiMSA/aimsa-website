@@ -282,14 +282,6 @@
       "github": "#"
     },
     {
-      "img": "#",
-      "name": "Omkar Khoche",
-      "job": "Associate Technical Head",
-      "instagram": "https://www.instagram.com/omkar_khoche/",
-      "linkedin": "https://www.linkedin.com/in/omkar-khoche-964a86259",
-      "github": "#"
-    },
-    {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/BHAVESH-modified_w8hk57.webp",
       "name": "Bhavesh Pagare",
       "job": "Photography Head",
@@ -316,6 +308,13 @@
   ],
 
   "JuniorExecutives": [
+    {
+      "img": "#",
+      "name": "Omkar Khoche",
+      "instagram": "https://www.instagram.com/omkar_khoche/",
+      "linkedin": "https://www.linkedin.com/in/omkar-khoche-964a86259",
+      "github": "#"
+    },
     {
       "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/c_scale,w_300,q_auto,f_webp/v1734776519/VINAYS_1_aylow6.png",
       "name": "Vinay Sawant",
@@ -360,7 +359,7 @@
     },
     {
       "img": "https://res.cloudinary.com/dgcs8uhuz/image/upload/c_scale,w_300,q_auto,f_webp/v1734778495/vinayak_gbywit.png",
-      "name": "VINAYAK PAWARA",
+      "name": "Vinayak Pawara",
       "linkedin": "https://www.linkedin.com/in/vinayak-pawara-362580289/",
       "instagram": "https://www.instagram.com/vinayakpawara9?igsh=bmVqOHBpem1lcnRy&utm_source=qr",
       "github": "https://github.com/WhitePanda9"

@@ -4,6 +4,7 @@ html {
   font-family: "AIMSAFONT", sans-serif !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
+  scroll-behavior: smooth;
   color: #777;
   font-weight: 400;
   width: 100% !important;
@@ -789,8 +790,9 @@ label {
   }
 
   .first-row {
+    margin-top: 80px;
     grid-template-columns: 1fr;
-    gap: 30px;
+    gap: 80px;
   }
 
   .team-grid {

@@ -14,6 +14,7 @@
       "Lorem ipsum dolor"
     ]
   },
+
   "Gallery": [
     {
       "title": "FixFrenzy '24",
@@ -102,7 +103,8 @@
     }
     
   ],
-"Team": [
+
+  "Team": [
     {
       "img": "https://res.cloudinary.com/dgfxygdz7/image/upload/c_scale,w_300,q_auto,f_webp/v1734611485/kp_dagxjg.webp",
       "name": "Khelesh Patil",
@@ -532,6 +534,7 @@
       "github": "#"
     }
   ],
+
   "Contact": {
     "address": "Pimpri Chinchwad College of Engineering Akurdi Pune  ",
     "email": "pccoeaimsa2022@gmail.com",
@@ -539,6 +542,7 @@
     "twitter": "twitter.com",
     "youtube": "youtube.com"
   },
+  
   "Features": [
     {
       "icon": "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734611485/HOD_sy06kw.png",

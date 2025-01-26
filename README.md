@@ -1,4 +1,4 @@
-# AIMSA Student Association Website
+# AiMSA Student Association Website
 
 Welcome to the official repository of the **Artificial Intelligence and Machine Learning Student Association (AIMSA)** website. AIMSA is a student-driven organization at **Pimpri Chinchwad College of Engineering (PCCOE), Pune**, dedicated to promoting the study and application of AI and ML technologies.
 

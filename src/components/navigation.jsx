@@ -84,7 +84,7 @@ export const Navigation = () => {
             
             <li>
               <button
-                onClick={() => handleNavigation("/")}
+                onClick={() => handleNavigation("https://artimas25.pccoeaimsa.in/")}
                 className="nav-item-link"
               >
                 <strong>ARTIMAS</strong>

@@ -138,7 +138,7 @@
     {
       "img": "https://res.cloudinary.com/dbz1erzd1/image/upload/v1765708592/7_ch1brj.png",
       "name": "Piyush Daspute",
-      "job": "IEEE President",
+      "job": "INNS President",
       "instagram": "https://www.instagram.com/atharva.ipynb",
       "linkedin": "https://www.linkedin.com/in/atharva-kamtalwar",
       "github": "https://github.com/atharvakamtalwar"
@@ -146,7 +146,7 @@
     {
       "img": "https://res.cloudinary.com/dbz1erzd1/image/upload/v1765708591/11_i1rn7e.png",
       "name": "Om Deshmukhe",
-      "job": "IEEE Vice President",
+      "job": "INNS Vice President",
       "instagram": "https://www.instagram.com/omdeshmukh.h/",
       "linkedin": "https://www.linkedin.com/in/om-deshmukh-928a282a6",
       "github": "https://github.com/OM-DESHMUKH12"
@@ -483,8 +483,7 @@
     "linkedin": "#",
     "instagram": "#",
     "github": "#"
-  },
-  {
+  }INNS
     "img": "Parth Bendre",
     "name": "Parth Bendre",
     "linkedin": "#",

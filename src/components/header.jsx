@@ -4,21 +4,21 @@ import React, { useState, useEffect } from "react";
 const slides = [
   {
     id: 1,
-    src: "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734956717/teachers_day_ly60ha.jpg",
+    src: "https://res.cloudinary.com/dbz1erzd1/image/upload/v1765714159/IMG_9252_1_rr1ojv.jpg",
     alt: "Intro 1",
     title: "Welcome To AiMSA",
     subtitle: "Innovating the Future of AI",
   },
   {
     id: 2,
-    src: "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734956841/intro-bg_iupdej.jpg",
+    src: "https://res.cloudinary.com/dbz1erzd1/image/upload/v1765714178/IMG_9222_fukyg1.jpg",
     alt: "Team",
     title: "Our Team",
     subtitle: "Driving Technology Forward",
   },
   {
     id: 3,
-    src: "https://res.cloudinary.com/dgfxygdz7/image/upload/v1734956849/team-2_hbddtm.jpg",
+    src: "https://res.cloudinary.com/dbz1erzd1/image/upload/v1765714178/IMG_9209_xcqppi.jpg",
     alt: "Teachers",
     title: "Empowering Education",
     subtitle: "AI in Learning",

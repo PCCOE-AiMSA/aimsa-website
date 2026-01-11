@@ -47,6 +47,7 @@ const ProfileCard = ({ data, className = "" }) => (
   </div>
 );
 
+
 export const Team = (props) => {
   const positionPriority = [
     "President",
@@ -55,13 +56,13 @@ export const Team = (props) => {
     "Treasurer",
     "Technical Head",
     "Associate Technical Head",
-    "Marketing and Publicity Head",
+    "Events Head",
     "Marketing Head",
     "Social Media Head",
     "Design Head",
-    "Photography Head",
-    "Event Head",
+    "Marketing & Sponsorship Head",
     "Membership Chair",
+    "Photography Head",
   ];
 
   const { presidentsAndVicePresidents, restOfTheTeam } = useMemo(() => {

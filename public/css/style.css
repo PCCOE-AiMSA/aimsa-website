@@ -628,7 +628,7 @@ label {
 
 .first-row {
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: repeat(3,3fr);
   gap: 100px;
   justify-content: center;
   align-items: center;
